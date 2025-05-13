@@ -1,0 +1,231 @@
+{
+  "categories": [
+    {
+      "id": "old_testament",
+      "name": "Old Testament",
+      "icon": "old_testament_icon"
+    },
+    {
+      "id": "gospels",
+      "name": "Gospels",
+      "icon": "gospels_icon"
+    },
+    {
+      "id": "new_testament",
+      "name": "New Testament",
+      "icon": "new_testament_icon"
+    },
+    {
+      "id": "bible_characters",
+      "name": "Bible Characters",
+      "icon": "characters_icon"
+    },
+    {
+      "id": "wisdom",
+      "name": "Wisdom & Prophecies",
+      "icon": "wisdom_icon"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "text": "Who built the ark?",
+      "options": ["Noah", "Moses", "Abraham", "David"],
+      "correctOption": 0,
+      "explanation": "Noah built the ark according to God's instructions before the great flood.",
+      "imageRef": "noah_ark",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q002",
+      "text": "How many days and nights did it rain during the flood?",
+      "options": ["30", "40", "60", "100"],
+      "correctOption": 1,
+      "explanation": "It rained for 40 days and 40 nights according to Genesis 7:12.",
+      "imageRef": "flood",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q003",
+      "text": "Who was the first king of Israel?",
+      "options": ["David", "Saul", "Solomon", "Samuel"],
+      "correctOption": 1,
+      "explanation": "Saul was the first king of Israel, anointed by the prophet Samuel.",
+      "imageRef": "king_saul",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q004",
+      "text": "Who killed Goliath?",
+      "options": ["Saul", "David", "Samson", "Samuel"],
+      "correctOption": 1,
+      "explanation": "David killed the Philistine giant Goliath with a sling and a stone.",
+      "imageRef": "david_goliath",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q005",
+      "text": "Which of the following is NOT one of the Ten Commandments?",
+      "options": ["You shall not kill", "Love your neighbor as yourself", "You shall not steal", "You shall have no other gods before me"],
+      "correctOption": 1,
+      "explanation": "\"Love your neighbor as yourself\" is an important commandment taught by Jesus, but not part of the original Ten Commandments given to Moses.",
+      "imageRef": "ten_commandments",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q006",
+      "text": "How many books are in the Old Testament?",
+      "options": ["27", "39", "46", "66"],
+      "correctOption": 1,
+      "explanation": "The Old Testament consists of 39 books in the standard Protestant Bible.",
+      "imageRef": "bible",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q007",
+      "text": "How many apostles did Jesus choose?",
+      "options": ["7", "10", "12", "14"],
+      "correctOption": 2,
+      "explanation": "Jesus chose 12 apostles as his closest followers.",
+      "imageRef": "apostles",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q008",
+      "text": "What was Jesus' first miracle recorded in the Gospel of John?",
+      "options": ["Healing a leper", "Turning water into wine", "Feeding the 5000", "Walking on water"],
+      "correctOption": 1,
+      "explanation": "Jesus' first recorded miracle in John was turning water into wine at the wedding in Cana.",
+      "imageRef": "water_to_wine",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q009",
+      "text": "Who betrayed Jesus?",
+      "options": ["Peter", "Judas Iscariot", "John", "Thomas"],
+      "correctOption": 1,
+      "explanation": "Judas Iscariot betrayed Jesus for 30 pieces of silver.",
+      "imageRef": "judas_betrayal",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q010",
+      "text": "Who denied knowing Jesus three times?",
+      "options": ["John", "Matthew", "Peter", "James"],
+      "correctOption": 2,
+      "explanation": "Peter denied knowing Jesus three times, as Jesus had predicted.",
+      "imageRef": "peter_denial",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q011",
+      "text": "Which of the following books is NOT part of the New Testament?",
+      "options": ["Romans", "Isaiah", "Philippians", "Revelation"],
+      "correctOption": 1,
+      "explanation": "Isaiah is a book from the Old Testament. The others are all New Testament books.",
+      "imageRef": "bible_books",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q012",
+      "text": "Who wrote the majority of the New Testament letters?",
+      "options": ["Peter", "John", "Paul", "James"],
+      "correctOption": 2,
+      "explanation": "Paul is credited with writing at least 13 of the 27 books in the New Testament.",
+      "imageRef": "paul",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q013",
+      "text": "On which island was John when he wrote the book of Revelation?",
+      "options": ["Crete", "Cyprus", "Sicily", "Patmos"],
+      "correctOption": 3,
+      "explanation": "John was exiled on the island of Patmos when he received the vision of Revelation.",
+      "imageRef": "patmos",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q014",
+      "text": "Which disciple is often called 'the disciple whom Jesus loved'?",
+      "options": ["Peter", "John", "Matthew", "Andrew"],
+      "correctOption": 1,
+      "explanation": "John is referred to as 'the disciple whom Jesus loved' in the Gospel of John.",
+      "imageRef": "john",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q015",
+      "text": "Who was thrown into a lions' den but survived?",
+      "options": ["David", "Daniel", "Elijah", "Jeremiah"],
+      "correctOption": 1,
+      "explanation": "Daniel was thrown into a lions' den for praying to God instead of the king, but God protected him.",
+      "imageRef": "daniel",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q016",
+      "text": "Which prophet was taken up to heaven in a whirlwind with a chariot and horses of fire?",
+      "options": ["Elijah", "Elisha", "Isaiah", "Jeremiah"],
+      "correctOption": 0,
+      "explanation": "Elijah was taken up to heaven in a whirlwind, accompanied by a chariot and horses of fire.",
+      "imageRef": "elijah",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q017",
+      "text": "In Proverbs, what is said to be 'the beginning of wisdom'?",
+      "options": ["Knowledge", "Understanding", "The fear of the Lord", "Learning"],
+      "correctOption": 2,
+      "explanation": "Proverbs 9:10 states, 'The fear of the LORD is the beginning of wisdom.'",
+      "imageRef": "wisdom",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q018",
+      "text": "Which book contains the verse 'For God so loved the world that he gave his one and only Son'?",
+      "options": ["Matthew", "Mark", "Luke", "John"],
+      "correctOption": 3,
+      "explanation": "John 3:16 is one of the most well-known verses in the Bible.",
+      "imageRef": "john316",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q019",
+      "text": "Which prophet saw the vision of the valley of dry bones?",
+      "options": ["Isaiah", "Jeremiah", "Ezekiel", "Daniel"],
+      "correctOption": 2,
+      "explanation": "Ezekiel had the vision of the valley of dry bones coming back to life in Ezekiel 37.",
+      "imageRef": "dry_bones",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q020",
+      "text": "Where was Jesus born?",
+      "options": ["Nazareth", "Bethlehem", "Jerusalem", "Galilee"],
+      "correctOption": 1,
+      "explanation": "Jesus was born in Bethlehem, as prophesied in the Old Testament.",
+      "imageRef": "bethlehem",
+      "category": "gospels",
+      "difficulty": 1
+    }
+  ]
+}

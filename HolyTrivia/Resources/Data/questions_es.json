@@ -1,0 +1,131 @@
+{
+  "categories": [
+    {
+      "id": "old_testament",
+      "name": "Antiguo Testamento",
+      "icon": "old_testament_icon"
+    },
+    {
+      "id": "gospels",
+      "name": "Evangelios",
+      "icon": "gospels_icon"
+    },
+    {
+      "id": "new_testament",
+      "name": "Nuevo Testamento",
+      "icon": "new_testament_icon"
+    },
+    {
+      "id": "bible_characters",
+      "name": "Personajes Bíblicos",
+      "icon": "characters_icon"
+    },
+    {
+      "id": "wisdom",
+      "name": "Sabiduría y Profecías",
+      "icon": "wisdom_icon"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "text": "¿Quién construyó el arca?",
+      "options": ["Noé", "Moisés", "Abraham", "David"],
+      "correctOption": 0,
+      "explanation": "Noé construyó el arca según las instrucciones de Dios antes del gran diluvio.",
+      "imageRef": "noah_ark",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q002",
+      "text": "¿Cuántos días y noches llovió durante el diluvio?",
+      "options": ["30", "40", "60", "100"],
+      "correctOption": 1,
+      "explanation": "Llovió durante 40 días y 40 noches según Génesis 7:12.",
+      "imageRef": "flood",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q003",
+      "text": "¿Quién fue el primer rey de Israel?",
+      "options": ["David", "Saúl", "Salomón", "Samuel"],
+      "correctOption": 1,
+      "explanation": "Saúl fue el primer rey de Israel, ungido por el profeta Samuel.",
+      "imageRef": "king_saul",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q004",
+      "text": "¿Quién mató a Goliat?",
+      "options": ["Saúl", "David", "Sansón", "Samuel"],
+      "correctOption": 1,
+      "explanation": "David mató al gigante filisteo Goliat con una honda y una piedra.",
+      "imageRef": "david_goliath",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q005",
+      "text": "¿Cuál de los siguientes NO es uno de los Diez Mandamientos?",
+      "options": ["No matarás", "Amarás a tu prójimo como a ti mismo", "No robarás", "No tendrás dioses ajenos"],
+      "correctOption": 1,
+      "explanation": "\"Amarás a tu prójimo como a ti mismo\" es un mandamiento importante enseñado por Jesús, pero no forma parte de los Diez Mandamientos originales dados a Moisés.",
+      "imageRef": "ten_commandments",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q006",
+      "text": "¿Cuántos libros contiene el Antiguo Testamento?",
+      "options": ["27", "39", "46", "66"],
+      "correctOption": 1,
+      "explanation": "El Antiguo Testamento consta de 39 libros en la Biblia protestante estándar.",
+      "imageRef": "bible",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q007",
+      "text": "¿Cuántos apóstoles eligió Jesús?",
+      "options": ["7", "10", "12", "14"],
+      "correctOption": 2,
+      "explanation": "Jesús eligió a 12 apóstoles como sus seguidores más cercanos.",
+      "imageRef": "apostles",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q008",
+      "text": "¿Cuál fue el primer milagro de Jesús registrado en el Evangelio de Juan?",
+      "options": ["Sanar a un leproso", "Convertir agua en vino", "Alimentar a 5000", "Caminar sobre el agua"],
+      "correctOption": 1,
+      "explanation": "El primer milagro de Jesús registrado en Juan fue convertir agua en vino en las bodas de Caná.",
+      "imageRef": "water_to_wine",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q009",
+      "text": "¿Quién traicionó a Jesús?",
+      "options": ["Pedro", "Judas Iscariote", "Juan", "Tomás"],
+      "correctOption": 1,
+      "explanation": "Judas Iscariote traicionó a Jesús por 30 piezas de plata.",
+      "imageRef": "judas_betrayal",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q010",
+      "text": "¿Quién negó conocer a Jesús tres veces?",
+      "options": ["Juan", "Mateo", "Pedro", "Santiago"],
+      "correctOption": 2,
+      "explanation": "Pedro negó conocer a Jesús tres veces, tal como Jesús lo había predicho.",
+      "imageRef": "peter_denial",
+      "category": "gospels",
+      "difficulty": 1
+    }
+  ]
+}
