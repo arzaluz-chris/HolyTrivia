@@ -239,6 +239,9 @@
         }
       }
     },
+    "Error: No se seleccionó una categoría" : {
+
+    },
     "Esta categoría aún no tiene preguntas disponibles" : {
 
     },
@@ -523,9 +526,6 @@
         }
       }
     },
-    "Preparando datos..." : {
-
-    },
     "Privacy Policy" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -757,6 +757,9 @@
       }
     },
     "Tu progreso se perderá. ¿Estás seguro de que quieres salir?" : {
+
+    },
+    "Ver Resultados" : {
 
     },
     "Version 1.0.0" : {

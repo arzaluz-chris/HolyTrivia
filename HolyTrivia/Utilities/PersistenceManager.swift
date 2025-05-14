@@ -77,6 +77,21 @@ class PersistenceManager {
         }
     }
     
+    // NUEVO MÉTODO: Cargar preguntas específicamente para una categoría
+    func loadQuestionsFor(categoryId: String) -> [Question] {
+        print("Cargando preguntas específicamente para la categoría: \(categoryId)")
+        
+        // Cargar todas las preguntas (con caché)
+        let allQuestions = loadQuestions()
+        
+        // Filtrar por categoría
+        let categoryQuestions = allQuestions.filter { $0.category == categoryId }
+        
+        print("Encontradas \(categoryQuestions.count) preguntas para la categoría \(categoryId)")
+        
+        return categoryQuestions
+    }
+    
     // Actualizar información sobre categorías con preguntas
     private func updateCategoriesWithQuestions(from data: QuestionData) {
         let categories = data.categories

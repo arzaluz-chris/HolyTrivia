@@ -1,180 +1,191 @@
-// CategoriesView.swift con solución para el problema de inicialización
+// CategoriesView.swift
 import SwiftUI
 
 struct CategoriesView: View {
     @EnvironmentObject var categoriesViewModel: CategoriesViewModel
     @EnvironmentObject var statsViewModel: StatsViewModel
-    @State private var selectedCategory: Category?
-    @State private var showQuiz = false
     @State private var numberOfQuestions = 10
     @State private var isShowingQuestionPicker = false
     @State private var showNoCategoryAlert = false
     @State private var emptyCategory: String = ""
     
-    // Nuevo estado para controlar si los datos están listos
-    @State private var dataIsReady = false
+    // Nuevo enfoque: en lugar de una presentación modal, usamos un estado para controlar qué vista mostramos
+    @State private var activeView: ActiveView = .categories
+    @State private var selectedCategory: Category?
+    
+    // Enumeración para controlar qué vista está activa
+    enum ActiveView {
+        case categories
+        case quiz
+    }
     
     var body: some View {
+        // Usamos un Group con un switch para mostrar diferentes vistas
+        Group {
+            switch activeView {
+            case .categories:
+                categoriesListView
+            case .quiz:
+                if let category = selectedCategory {
+                    DirectQuizView(
+                        category: category,
+                        questionsCount: numberOfQuestions,
+                        onDismiss: { activeView = .categories }
+                    )
+                } else {
+                    // Fallback por si no hay categoría seleccionada
+                    Text("Error: No se seleccionó una categoría")
+                        .onAppear {
+                            activeView = .categories
+                        }
+                }
+            }
+        }
+        .onAppear {
+            // Pre-cargar categorías y preguntas de forma forzada
+            forcePreloadData()
+        }
+    }
+    
+    // Vista de la lista de categorías
+    var categoriesListView: some View {
         NavigationView {
             ZStack {
                 // Fondo
                 Color("BackgroundColor").ignoresSafeArea()
                 
-                // Vista de carga inicial hasta que los datos estén listos
-                if !dataIsReady {
-                    VStack(spacing: 20) {
+                VStack(spacing: 0) {
+                    // Cabecera
+                    HStack {
+                        Text("Elige una Categoría")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color("PrimaryTextColor"))
+                        
+                        Spacer()
+                        
+                        Button(action: {
+                            isShowingQuestionPicker = true
+                        }) {
+                            HStack {
+                                Text("\(numberOfQuestions)")
+                                    .foregroundColor(Color("PrimaryColor"))
+                                    .fontWeight(.bold)
+                                
+                                Image(systemName: "questionmark.circle.fill")
+                                    .foregroundColor(Color("PrimaryColor"))
+                            }
+                            .padding(8)
+                            .background(
+                                RoundedRectangle(cornerRadius: 8)
+                                    .fill(Color("PrimaryColor").opacity(0.1))
+                            )
+                        }
+                    }
+                    .padding()
+                    
+                    if categoriesViewModel.isLoading {
+                        Spacer()
                         ProgressView()
                             .scaleEffect(1.5)
-                        
-                        Text("Preparando datos...")
-                            .font(.headline)
-                            .foregroundColor(Color("PrimaryTextColor"))
-                    }
-                } else {
-                    VStack(spacing: 0) {
-                        // Cabecera
-                        HStack {
-                            Text("Elige una Categoría")
-                                .font(.title)
-                                .fontWeight(.bold)
-                                .foregroundColor(Color("PrimaryTextColor"))
+                        Spacer()
+                    } else if let errorMessage = categoriesViewModel.errorMessage {
+                        Spacer()
+                        VStack(spacing: 16) {
+                            Image(systemName: "exclamationmark.triangle.fill")
+                                .font(.system(size: 60))
+                                .foregroundColor(.orange)
                             
-                            Spacer()
+                            Text(errorMessage)
+                                .font(.headline)
+                                .multilineTextAlignment(.center)
                             
                             Button(action: {
-                                isShowingQuestionPicker = true
+                                categoriesViewModel.loadCategories()
                             }) {
-                                HStack {
-                                    Text("\(numberOfQuestions)")
-                                        .foregroundColor(Color("PrimaryColor"))
-                                        .fontWeight(.bold)
-                                    
-                                    Image(systemName: "questionmark.circle.fill")
-                                        .foregroundColor(Color("PrimaryColor"))
-                                }
-                                .padding(8)
-                                .background(
-                                    RoundedRectangle(cornerRadius: 8)
-                                        .fill(Color("PrimaryColor").opacity(0.1))
-                                )
+                                Text("Intentar de nuevo")
+                                    .font(.headline)
+                                    .foregroundColor(.white)
+                                    .padding()
+                                    .background(
+                                        RoundedRectangle(cornerRadius: 10)
+                                            .fill(Color("PrimaryColor"))
+                                    )
                             }
                         }
                         .padding()
-                        
-                        if categoriesViewModel.isLoading {
-                            Spacer()
-                            ProgressView()
-                                .scaleEffect(1.5)
-                            Spacer()
-                        } else if let errorMessage = categoriesViewModel.errorMessage {
-                            Spacer()
-                            VStack(spacing: 16) {
-                                Image(systemName: "exclamationmark.triangle.fill")
-                                    .font(.system(size: 60))
-                                    .foregroundColor(.orange)
-                                
-                                Text(errorMessage)
-                                    .font(.headline)
-                                    .multilineTextAlignment(.center)
-                                
-                                Button(action: {
-                                    categoriesViewModel.loadCategories()
-                                }) {
-                                    Text("Intentar de nuevo")
-                                        .font(.headline)
-                                        .foregroundColor(.white)
-                                        .padding()
-                                        .background(
-                                            RoundedRectangle(cornerRadius: 10)
-                                                .fill(Color("PrimaryColor"))
-                                        )
-                                }
-                            }
-                            .padding()
-                            Spacer()
-                        } else {
-                            // Lista de categorías
-                            ScrollView {
-                                LazyVGrid(columns: [GridItem(.flexible())], spacing: 16) {
-                                    ForEach(categoriesViewModel.categories) { category in
-                                        CategoryCardView(
-                                            category: category,
-                                            stats: categoriesViewModel.getStatsFor(categoryId: category.id),
-                                            hasQuestions: categoriesViewModel.categoryHasQuestions(categoryId: category.id)
-                                        )
-                                        .onTapGesture {
-                                            print("Categoría seleccionada: \(category.id) - \(category.name)")
+                        Spacer()
+                    } else {
+                        // Lista de categorías
+                        ScrollView {
+                            LazyVGrid(columns: [GridItem(.flexible())], spacing: 16) {
+                                ForEach(categoriesViewModel.categories) { category in
+                                    CategoryCardView(
+                                        category: category,
+                                        stats: categoriesViewModel.getStatsFor(categoryId: category.id),
+                                        hasQuestions: categoriesViewModel.categoryHasQuestions(categoryId: category.id)
+                                    )
+                                    .onTapGesture {
+                                        print("Categoría seleccionada: \(category.id) - \(category.name)")
+                                        
+                                        // Verificar si hay preguntas en esta categoría
+                                        let hasQuestions = PersistenceManager.shared.categoryHasQuestions(category.id)
+                                        if hasQuestions {
+                                            selectedCategory = category
                                             
-                                            // Verificar explícitamente si la categoría tiene preguntas en PersistenceManager
-                                            let hasQuestions = PersistenceManager.shared.categoryHasQuestions(category.id)
-                                            print("¿Tiene preguntas disponibles? \(hasQuestions)")
+                                            // Forzar lectura de preguntas antes de navegar
+                                            let questions = PersistenceManager.shared.loadQuestionsFor(categoryId: category.id)
+                                            print("Preguntas cargadas para \(category.name): \(questions.count)")
                                             
-                                            if hasQuestions {
-                                                selectedCategory = category
-                                                
-                                                // Pequeño retraso para asegurar que todo esté listo
-                                                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                                                    showQuiz = true
-                                                }
+                                            if !questions.isEmpty {
+                                                activeView = .quiz
                                             } else {
-                                                // Mostrar alerta de categoría sin preguntas
                                                 emptyCategory = category.name
                                                 showNoCategoryAlert = true
                                             }
+                                        } else {
+                                            emptyCategory = category.name
+                                            showNoCategoryAlert = true
                                         }
                                     }
                                 }
-                                .padding(.horizontal)
-                                .padding(.top, 8)
-                                .padding(.bottom, 20)
                             }
+                            .padding(.horizontal)
+                            .padding(.top, 8)
+                            .padding(.bottom, 20)
                         }
                     }
                 }
-            }
-            .sheet(isPresented: $isShowingQuestionPicker) {
-                QuestionPickerView(numberOfQuestions: $numberOfQuestions)
+                .sheet(isPresented: $isShowingQuestionPicker) {
+                    QuestionPickerView(numberOfQuestions: $numberOfQuestions)
+                }
+                .alert(isPresented: $showNoCategoryAlert) {
+                    Alert(
+                        title: Text("Categoría sin preguntas"),
+                        message: Text("La categoría '\(emptyCategory)' aún no tiene preguntas disponibles. Por favor, selecciona otra categoría."),
+                        dismissButton: .default(Text("Entendido"))
+                    )
+                }
             }
             .navigationBarTitle("", displayMode: .inline)
             .navigationBarHidden(true)
-            .sheet(isPresented: $showQuiz) {
-                if let category = selectedCategory {
-                    SimpleQuizView(category: category, questionsCount: numberOfQuestions)
-                }
-            }
-            .alert(isPresented: $showNoCategoryAlert) {
-                Alert(
-                    title: Text("Categoría sin preguntas"),
-                    message: Text("La categoría '\(emptyCategory)' aún no tiene preguntas disponibles. Por favor, selecciona otra categoría."),
-                    dismissButton: .default(Text("Entendido"))
-                )
-            }
-            .onAppear {
-                // Al aparecer la vista, forzamos la carga completa de los datos
-                // y esperamos un tiempo prudencial antes de permitir interacción
-                preloadData()
-            }
         }
     }
     
-    // Nueva función para precargar datos y asegurar que todo esté listo
-    private func preloadData() {
-        print("Precargando datos para asegurar inicialización completa...")
+    // Función para pre-cargar datos de forma forzada
+    private func forcePreloadData() {
+        print("Forzando carga de datos...")
         
-        // Reiniciar estado
-        dataIsReady = false
+        // Forzar carga de categorías
+        let categories = PersistenceManager.shared.loadCategories()
+        print("Categorías precargadas: \(categories.count)")
         
-        // Forzar carga completa de categorías y preguntas
-        PersistenceManager.shared.loadCategories()
-        PersistenceManager.shared.loadQuestions()
+        // Forzar carga de todas las preguntas
+        let questions = PersistenceManager.shared.loadQuestions()
+        print("Preguntas precargadas: \(questions.count)")
+        
+        // Actualizar ViewModel
         categoriesViewModel.loadCategories()
         categoriesViewModel.checkCategoriesWithQuestions()
-        
-        // Esperar un tiempo prudencial para asegurar que todo esté cargado
-        // antes de permitir interacción
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            print("Datos precargados completamente, permitiendo interacción")
-            dataIsReady = true
-        }
     }
 }
