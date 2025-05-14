@@ -34,7 +34,7 @@ class QuizViewModel: ObservableObject {
         self.questionsPerQuiz = questionsCount
         self.isLoading = true
         
-        // Cargar preguntas de la categoría
+        // Cargar preguntas de la categoría inmediatamente
         loadQuestions()
     }
     
@@ -44,18 +44,23 @@ class QuizViewModel: ObservableObject {
         errorLoading = false
         noCategoryQuestions = false
         
+        print("Iniciando carga de preguntas para categoría: \(category.id)")
+        
         DispatchQueue.global(qos: .userInitiated).async { [weak self] in
-            guard let self = self else { return }
+            guard let self = self else {
+                print("ERROR: Self fue liberado durante carga de preguntas")
+                return
+            }
             
             // Obtener todas las preguntas
             let allQuestions = PersistenceManager.shared.loadQuestions()
             print("Total de preguntas cargadas: \(allQuestions.count)")
             
             if allQuestions.isEmpty {
+                print("ERROR: No se pudieron cargar preguntas del JSON")
                 DispatchQueue.main.async {
                     self.errorLoading = true
                     self.isLoading = false
-                    print("ERROR: No se pudieron cargar preguntas del JSON")
                 }
                 return
             }
@@ -70,7 +75,6 @@ class QuizViewModel: ObservableObject {
                 DispatchQueue.main.async {
                     self.noCategoryQuestions = true
                     self.isLoading = false
-                    print("Esta categoría no tiene preguntas disponibles")
                 }
                 return
             }
@@ -80,16 +84,18 @@ class QuizViewModel: ObservableObject {
             let count = min(self.questionsPerQuiz, shuffledQuestions.count)
             let selectedQuestions = Array(shuffledQuestions.prefix(count))
             
+            print("Preguntas seleccionadas aleatoriamente: \(selectedQuestions.count)")
+            print("Primera pregunta: \(selectedQuestions.first?.text ?? "Ninguna")")
+            
             DispatchQueue.main.async {
-                print("Preguntas seleccionadas: \(selectedQuestions.count)")
                 self.questions = selectedQuestions
                 
-                // Establecer la primera pregunta
+                // Establecer la primera pregunta explícitamente
                 if !self.questions.isEmpty {
                     self.currentQuestion = self.questions[0]
                     print("Primera pregunta establecida: \(self.currentQuestion?.text ?? "Ninguna")")
                     
-                    // Inicializar el estado del quiz aquí mismo, ahora que tenemos preguntas
+                    // Inicializar el estado del quiz ahora que tenemos preguntas
                     self.initializeQuizState()
                 } else {
                     print("ERROR: No se pudieron seleccionar preguntas")
@@ -101,8 +107,10 @@ class QuizViewModel: ObservableObject {
         }
     }
     
-    // Inicializar estado del quiz (llamado automáticamente después de cargar preguntas)
+    // Inicializar estado del quiz
     private func initializeQuizState() {
+        print("Inicializando estado del quiz")
+        
         currentQuestionIndex = 0
         score = 0
         isQuizCompleted = false
@@ -111,15 +119,17 @@ class QuizViewModel: ObservableObject {
         showFeedback = false
         
         startTime = Date()
-        startTimer()
         isQuizStarted = true
         
-        print("Estado del quiz inicializado automáticamente")
+        // Iniciar temporizador después de todo lo demás
+        startTimer()
+        
+        print("Estado del quiz inicializado - Primera pregunta: \(currentQuestion?.text ?? "Ninguna")")
     }
     
-    // Iniciar el quiz (para llamar manualmente si es necesario)
+    // Iniciar manualmente el quiz
     func startQuiz() {
-        print("Intentando iniciar quiz, estado de carga: \(isLoading), preguntas: \(questions.count)")
+        print("Iniciando quiz manualmente - Preguntas: \(questions.count)")
         
         if isLoading {
             print("Quiz no iniciado - todavía cargando preguntas")
@@ -127,7 +137,7 @@ class QuizViewModel: ObservableObject {
         }
         
         if questions.isEmpty {
-            print("No hay preguntas disponibles")
+            print("No hay preguntas disponibles para iniciar quiz")
             return
         }
         
@@ -141,6 +151,7 @@ class QuizViewModel: ObservableObject {
     
     // Iniciar el temporizador para la pregunta actual
     func startTimer() {
+        print("Iniciando temporizador para pregunta actual")
         timerManager.reset()
         timerManager.start { [weak self] in
             self?.handleTimeUp()
@@ -149,6 +160,7 @@ class QuizViewModel: ObservableObject {
     
     // Manejar cuando se acaba el tiempo
     private func handleTimeUp() {
+        print("Tiempo agotado para la pregunta actual")
         if selectedAnswerIndex == nil {
             // El usuario no respondió, marcar como incorrecto
             soundPlayer.play(.incorrect)
@@ -167,6 +179,8 @@ class QuizViewModel: ObservableObject {
     func submitAnswer(_ index: Int) {
         guard let question = currentQuestion, selectedAnswerIndex == nil else { return }
         
+        print("Respuesta seleccionada: \(index) para pregunta: \(question.text)")
+        
         selectedAnswerIndex = index
         isCorrectAnswer = question.isCorrect(index)
         showFeedback = true
@@ -174,8 +188,10 @@ class QuizViewModel: ObservableObject {
         if isCorrectAnswer ?? false {
             score += 1
             soundPlayer.play(.correct)
+            print("¡Respuesta correcta! Puntuación actual: \(score)")
         } else {
             soundPlayer.play(.incorrect)
+            print("Respuesta incorrecta. Respuesta correcta era: \(question.correctOption)")
         }
         
         timerManager.stop()
@@ -188,6 +204,8 @@ class QuizViewModel: ObservableObject {
     
     // Pasar a la siguiente pregunta
     func nextQuestion() {
+        print("Avanzando a la siguiente pregunta")
+        
         // Ocultar feedback
         showFeedback = false
         
@@ -197,7 +215,10 @@ class QuizViewModel: ObservableObject {
             selectedAnswerIndex = nil
             isCorrectAnswer = nil
             startTimer()
+            
+            print("Nueva pregunta: \(currentQuestion?.text ?? "Ninguna")")
         } else {
+            print("No hay más preguntas, finalizando quiz")
             // Quiz completado
             finishQuiz()
         }
@@ -205,6 +226,8 @@ class QuizViewModel: ObservableObject {
     
     // Finalizar el quiz
     func finishQuiz() {
+        print("Finalizando quiz - Puntuación final: \(score)")
+        
         timerManager.stop()
         isQuizCompleted = true
         
@@ -223,6 +246,7 @@ class QuizViewModel: ObservableObject {
         // Guardar resultado
         if let result = quizResult {
             PersistenceManager.shared.addQuizResult(result)
+            print("Resultado guardado - Categoría: \(category.id), Puntuación: \(score)")
         }
     }
     

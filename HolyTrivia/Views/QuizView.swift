@@ -9,6 +9,7 @@ struct QuizView: View {
     @State private var progressBarValue = 0.0
     
     init(category: Category, questionsCount: Int) {
+        print("Inicializando QuizView para categoría: \(category.name)")
         _quizViewModel = StateObject(wrappedValue: QuizViewModel(category: category, questionsCount: questionsCount))
     }
     
@@ -70,7 +71,7 @@ struct QuizView: View {
                     .padding(.top)
                 }
                 .padding()
-            } else if quizViewModel.errorLoading || quizViewModel.questions.isEmpty {
+            } else if quizViewModel.errorLoading {
                 // Estado de error
                 VStack(spacing: 20) {
                     Image(systemName: "exclamationmark.triangle.fill")
@@ -306,23 +307,27 @@ struct QuizView: View {
         }
         .edgesIgnoringSafeArea(.bottom)
         .onAppear {
-            print("QuizView onAppear - Esperando a que terminen de cargarse las preguntas")
+            print("QuizView onAppear - Estado actual: loading=\(quizViewModel.isLoading), preguntas=\(quizViewModel.questions.count)")
         }
-        .onReceive(quizViewModel.$isLoading.dropFirst()) { loading in
-            if loading == false {
-                print("Carga de preguntas completada, verificando disponibilidad")
+        .onChange(of: quizViewModel.isLoading) { loading in
+            print("Estado isLoading cambió a: \(loading)")
+            if !loading {
+                print("Carga completada: preguntas=\(quizViewModel.questions.count), currentQuestion=\(quizViewModel.currentQuestion?.text ?? "nil")")
                 
-                if !quizViewModel.questions.isEmpty && quizViewModel.currentQuestion != nil && !quizViewModel.isQuizStarted {
-                    // Solo iniciar el quiz si no está ya iniciado
-                    DispatchQueue.main.async {
-                        quizViewModel.startQuiz()
-                    }
+                // Esta verificación es crítica y asegura que si tenemos preguntas pero no hay quiz iniciado, se inicie el quiz
+                if !quizViewModel.questions.isEmpty && !quizViewModel.isQuizStarted {
+                    print("Iniciando quiz después de carga...")
+                    quizViewModel.startQuiz()
+                    
+                    // Asegurar que la barra de progreso se actualiza
+                    progressBarValue = Double(quizViewModel.currentQuestionIndex) / Double(max(1, quizViewModel.questions.count - 1))
                 }
             }
         }
-        .onChange(of: quizViewModel.currentQuestionIndex) { _ in
+        .onChange(of: quizViewModel.currentQuestionIndex) { newIndex in
+            print("Índice de pregunta cambió a: \(newIndex)")
             // Update progress bar
-            progressBarValue = Double(quizViewModel.currentQuestionIndex) / Double(max(1, quizViewModel.questions.count - 1))
+            progressBarValue = Double(newIndex) / Double(max(1, quizViewModel.questions.count - 1))
         }
     }
     
