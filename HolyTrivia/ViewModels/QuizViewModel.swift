@@ -13,6 +13,8 @@ class QuizViewModel: ObservableObject {
     @Published var score: Int = 0
     @Published var showFeedback: Bool = false
     @Published var quizResult: QuizResult?
+    @Published var isLoading: Bool = true
+    @Published var errorLoading: Bool = false
     
     // Datos del quiz
     private var category: Category
@@ -25,8 +27,10 @@ class QuizViewModel: ObservableObject {
     
     // Inicialización con categoría seleccionada
     init(category: Category, questionsCount: Int = 10) {
+        print("Inicializando QuizViewModel con categoría: \(category.name), preguntas: \(questionsCount)")
         self.category = category
         self.questionsPerQuiz = questionsCount
+        self.isLoading = true
         
         // Cargar preguntas de la categoría
         loadQuestions()
@@ -34,23 +38,78 @@ class QuizViewModel: ObservableObject {
     
     // Cargar preguntas de la categoría seleccionada
     private func loadQuestions() {
-        // Obtener todas las preguntas
-        let allQuestions = PersistenceManager.shared.loadQuestions()
+        isLoading = true
+        errorLoading = false
         
-        // Filtrar por categoría
-        let categoryQuestions = allQuestions.filter { $0.category == category.id }
-        
-        // Tomar un número determinado de preguntas aleatorias
-        questions = Array(categoryQuestions.shuffled().prefix(questionsPerQuiz))
-        
-        // Establecer la primera pregunta
-        if !questions.isEmpty {
-            currentQuestion = questions[0]
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+            guard let self = self else { return }
+            
+            // Obtener todas las preguntas
+            let allQuestions = PersistenceManager.shared.loadQuestions()
+            print("Total de preguntas cargadas: \(allQuestions.count)")
+            
+            // Filtrar por categoría
+            let categoryQuestions = allQuestions.filter { $0.category == self.category.id }
+            print("Preguntas de la categoría \(self.category.id): \(categoryQuestions.count)")
+            
+            // Si no hay preguntas para esta categoría, usar cualquier pregunta
+            if categoryQuestions.isEmpty {
+                print("No se encontraron preguntas para la categoría: \(self.category.id)")
+                
+                // Utilizar preguntas de cualquier categoría como respaldo
+                let backupQuestions = allQuestions.isEmpty ? [] : Array(allQuestions.shuffled().prefix(self.questionsPerQuiz))
+                
+                DispatchQueue.main.async {
+                    if backupQuestions.isEmpty {
+                        self.errorLoading = true
+                    } else {
+                        print("Usando \(backupQuestions.count) preguntas de respaldo")
+                        self.questions = backupQuestions
+                        if let firstQuestion = self.questions.first {
+                            self.currentQuestion = firstQuestion
+                        }
+                    }
+                    self.isLoading = false
+                }
+                return
+            }
+            
+            // Tomar un número determinado de preguntas aleatorias
+            let shuffledQuestions = categoryQuestions.shuffled()
+            let count = min(self.questionsPerQuiz, shuffledQuestions.count)
+            let selectedQuestions = Array(shuffledQuestions.prefix(count))
+            
+            DispatchQueue.main.async {
+                print("Preguntas seleccionadas: \(selectedQuestions.count)")
+                self.questions = selectedQuestions
+                
+                // Establecer la primera pregunta
+                if !self.questions.isEmpty {
+                    self.currentQuestion = self.questions[0]
+                    print("Primera pregunta establecida: \(self.currentQuestion?.text ?? "Ninguna")")
+                } else {
+                    print("No se pudieron seleccionar preguntas")
+                    self.errorLoading = true
+                }
+                
+                self.isLoading = false
+            }
         }
     }
     
     // Iniciar el quiz
     func startQuiz() {
+        print("Iniciando quiz")
+        if isLoading {
+            print("Todavía cargando preguntas...")
+            return
+        }
+        
+        if questions.isEmpty {
+            print("No hay preguntas disponibles")
+            return
+        }
+        
         currentQuestionIndex = 0
         score = 0
         isQuizCompleted = false
@@ -58,9 +117,8 @@ class QuizViewModel: ObservableObject {
         isCorrectAnswer = nil
         showFeedback = false
         
-        if !questions.isEmpty {
-            currentQuestion = questions[0]
-        }
+        currentQuestion = questions[0]
+        print("Primera pregunta: \(currentQuestion?.text ?? "Ninguna")")
         
         startTime = Date()
         startTimer()

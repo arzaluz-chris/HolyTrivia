@@ -19,12 +19,12 @@ class StatsViewModel: ObservableObject {
         categories = persistenceManager.loadCategories()
     }
     
-    // Obtener nombre de categoría por ID
+    // Get category name by ID
     func getCategoryName(forId id: String) -> String {
         return categories.first(where: { $0.id == id })?.name ?? id
     }
     
-    // Obtener estadísticas para mostrar en gráficos o tablas
+    // Get stats for charts or tables
     func getCategoryStats() -> [(category: Category, stat: CategoryStat)] {
         var result: [(category: Category, stat: CategoryStat)] = []
         
@@ -37,7 +37,7 @@ class StatsViewModel: ObservableObject {
         return result.sorted(by: { $0.stat.accuracy > $1.stat.accuracy })
     }
     
-    // Obtener los mejores resultados por categoría
+    // Get best results by category
     func getBestResultsByCategory() -> [String: QuizResult] {
         var bestResults: [String: QuizResult] = [:]
         
@@ -54,7 +54,7 @@ class StatsViewModel: ObservableObject {
         return bestResults
     }
     
-    // Calcular el nivel de "maestría" del usuario (0-5 estrellas)
+    // Calculate user "mastery" level (0-5 stars)
     func calculateMasteryLevel() -> Int {
         let accuracy = userStats.overallAccuracy
         
@@ -68,14 +68,14 @@ class StatsViewModel: ObservableObject {
         }
     }
     
-    // Resetear todas las estadísticas
+    // Reset all stats
     func resetAllStats() {
         persistenceManager.saveUserStats(UserStats.empty)
         persistenceManager.saveQuizHistory([])
         loadData()
     }
     
-    // Obtener fecha del último juego formateada
+    // Get formatted date of last game
     var lastPlayedFormatted: String {
         guard let lastPlayed = userStats.lastPlayed else {
             return NSLocalizedString("Never played", comment: "")

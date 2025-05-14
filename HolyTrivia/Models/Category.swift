@@ -20,7 +20,14 @@ struct Category: Identifiable, Codable {
     }
     
     var iconImage: Image {
-        return Image(icon)
+        if let uiImage = UIImage(named: icon) {
+            return Image(uiImage: uiImage)
+        }
+        return systemIcon
+    }
+    
+    var systemIcon: Image {
+        return Image(systemName: systemIconName)
     }
     
     var systemIconName: String {

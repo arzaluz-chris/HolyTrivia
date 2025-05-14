@@ -378,6 +378,7 @@
       }
     },
     "Loading question..." : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -386,6 +387,9 @@
           }
         }
       }
+    },
+    "Loading questions..." : {
+
     },
     "Mastery Level" : {
       "extractionState" : "stale",
@@ -418,6 +422,12 @@
           }
         }
       }
+    },
+    "No questions available" : {
+
+    },
+    "No questions available for this category" : {
+
     },
     "No stats yet" : {
       "localizations" : {

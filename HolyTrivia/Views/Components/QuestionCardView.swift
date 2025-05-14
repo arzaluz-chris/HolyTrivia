@@ -73,25 +73,9 @@ struct QuestionCardView: View {
     }
 }
 
-struct QuestionCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        QuestionCardView(
-            question: Question(
-                id: "q001",
-                text: "¿Quién construyó el arca?",
-                options: ["Noé", "Moisés", "Abraham", "David"],
-                correctOption: 0,
-                explanation: "Noé construyó el arca según las instrucciones de Dios antes del gran diluvio.",
-                imageRef: nil,
-                category: "old_testament",
-                difficulty: 1
-            ),
-            selectedAnswerIndex: nil,
-            showFeedback: false,
-            onOptionSelected: { _ in }
-        )
-        .previewLayout(.sizeThatFits)
-        .padding()
-        .background(Color("BackgroundColor"))
-    }
-}
+// Elimina esta estructura de previews que está causando problemas
+// struct QuestionCardView_Previews: PreviewProvider {
+//     static var previews: some View {
+//         // ...
+//     }
+// }
