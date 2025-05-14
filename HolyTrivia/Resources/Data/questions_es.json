@@ -126,6 +126,106 @@
       "imageRef": "peter_denial",
       "category": "gospels",
       "difficulty": 1
+    },
+    {
+      "id": "q011",
+      "text": "¿Cuál de los siguientes libros NO forma parte del Nuevo Testamento?",
+      "options": ["Romanos", "Isaías", "Filipenses", "Apocalipsis"],
+      "correctOption": 1,
+      "explanation": "Isaías es un libro del Antiguo Testamento. Los otros son todos libros del Nuevo Testamento.",
+      "imageRef": "bible_books",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q012",
+      "text": "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?",
+      "options": ["Pedro", "Juan", "Pablo", "Santiago"],
+      "correctOption": 2,
+      "explanation": "Pablo es acreditado con escribir al menos 13 de los 27 libros del Nuevo Testamento.",
+      "imageRef": "paul",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q013",
+      "text": "¿En qué isla estaba Juan cuando escribió el libro del Apocalipsis?",
+      "options": ["Creta", "Chipre", "Sicilia", "Patmos"],
+      "correctOption": 3,
+      "explanation": "Juan estaba exiliado en la isla de Patmos cuando recibió la visión del Apocalipsis.",
+      "imageRef": "patmos",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q014",
+      "text": "¿A qué discípulo se le suele llamar 'el discípulo a quien Jesús amaba'?",
+      "options": ["Pedro", "Juan", "Mateo", "Andrés"],
+      "correctOption": 1,
+      "explanation": "Juan es referido como 'el discípulo a quien Jesús amaba' en el Evangelio de Juan.",
+      "imageRef": "john",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q015",
+      "text": "¿Quién fue arrojado a un foso de leones pero sobrevivió?",
+      "options": ["David", "Daniel", "Elías", "Jeremías"],
+      "correctOption": 1,
+      "explanation": "Daniel fue arrojado a un foso de leones por orar a Dios en lugar de al rey, pero Dios lo protegió.",
+      "imageRef": "daniel",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q016",
+      "text": "¿Qué profeta fue llevado al cielo en un torbellino con un carro y caballos de fuego?",
+      "options": ["Elías", "Eliseo", "Isaías", "Jeremías"],
+      "correctOption": 0,
+      "explanation": "Elías fue llevado al cielo en un torbellino, acompañado por un carro y caballos de fuego.",
+      "imageRef": "elijah",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q017",
+      "text": "En Proverbios, ¿qué se dice que es 'el comienzo de la sabiduría'?",
+      "options": ["Conocimiento", "Entendimiento", "El temor del Señor", "Aprendizaje"],
+      "correctOption": 2,
+      "explanation": "Proverbios 9:10 afirma: 'El temor del SEÑOR es el principio de la sabiduría.'",
+      "imageRef": "wisdom",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q018",
+      "text": "¿Qué libro contiene el versículo 'Porque de tal manera amó Dios al mundo que dio a su Hijo unigénito'?",
+      "options": ["Mateo", "Marcos", "Lucas", "Juan"],
+      "correctOption": 3,
+      "explanation": "Juan 3:16 es uno de los versículos más conocidos de la Biblia.",
+      "imageRef": "john316",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q019",
+      "text": "¿Qué profeta vio la visión del valle de los huesos secos?",
+      "options": ["Isaías", "Jeremías", "Ezequiel", "Daniel"],
+      "correctOption": 2,
+      "explanation": "Ezequiel tuvo la visión del valle de huesos secos volviendo a la vida en Ezequiel 37.",
+      "imageRef": "dry_bones",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q020",
+      "text": "¿Dónde nació Jesús?",
+      "options": ["Nazaret", "Belén", "Jerusalén", "Galilea"],
+      "correctOption": 1,
+      "explanation": "Jesús nació en Belén, como fue profetizado en el Antiguo Testamento.",
+      "imageRef": "bethlehem",
+      "category": "gospels",
+      "difficulty": 1
     }
   ]
 }

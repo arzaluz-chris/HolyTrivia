@@ -4,11 +4,27 @@
     "" : {
 
     },
+    "¿Salir del Quiz?" : {
+
+    },
+    "(Sin preguntas)" : {
+
+    },
     "%@" : {
 
     },
     "%lld" : {
 
+    },
+    "%lld de %lld preguntas" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld de %2$lld preguntas"
+          }
+        }
+      }
     },
     "%lld of %lld correct" : {
       "localizations" : {
@@ -16,16 +32,6 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "%1$lld of %2$lld correct"
-          }
-        }
-      }
-    },
-    "%lld of %lld questions" : {
-      "localizations" : {
-        "es" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld of %2$lld questions"
           }
         }
       }
@@ -46,7 +52,7 @@
     "%lld%%" : {
 
     },
-    "%lld%% correct" : {
+    "%lld%% correcto" : {
 
     },
     "+ %lld more games" : {
@@ -122,6 +128,15 @@
         }
       }
     },
+    "Cancelar" : {
+
+    },
+    "Cargando preguntas..." : {
+
+    },
+    "Categoría sin preguntas" : {
+
+    },
     "Category Progress" : {
       "localizations" : {
         "en" : {
@@ -133,6 +148,7 @@
       }
     },
     "Choose a Category" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -187,7 +203,20 @@
         }
       }
     },
+    "Elige una Categoría" : {
+
+    },
+    "Entendido" : {
+
+    },
+    "Error cargando categorías" : {
+
+    },
+    "Error inesperado: no se pudo cargar la pregunta" : {
+
+    },
     "Error loading categories" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -196,6 +225,9 @@
           }
         }
       }
+    },
+    "Esta categoría aún no tiene preguntas disponibles" : {
+
     },
     "Excellent! 🎉" : {
       "extractionState" : "stale",
@@ -209,6 +241,7 @@
       }
     },
     "Exit" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -219,6 +252,7 @@
       }
     },
     "Exit Quiz?" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -334,6 +368,9 @@
         }
       }
     },
+    "Hubo un problema cargando las preguntas" : {
+
+    },
     "I scored %@/%@ (%@%%) in HolyTrivia Bible Quiz!" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -345,6 +382,9 @@
         }
       }
     },
+    "Intentar de nuevo" : {
+
+    },
     "Keep learning! 📚" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -355,6 +395,9 @@
           }
         }
       }
+    },
+    "La categoría '%@' aún no tiene preguntas disponibles. Por favor, selecciona otra categoría." : {
+
     },
     "Last played: %@" : {
       "localizations" : {
@@ -388,9 +431,6 @@
         }
       }
     },
-    "Loading questions..." : {
-
-    },
     "Mastery Level" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -423,10 +463,7 @@
         }
       }
     },
-    "No questions available" : {
-
-    },
-    "No questions available for this category" : {
+    "No jugado aún" : {
 
     },
     "No stats yet" : {
@@ -440,6 +477,7 @@
       }
     },
     "Not played yet" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -459,6 +497,19 @@
         }
       }
     },
+    "Por favor, selecciona otra categoría para jugar" : {
+
+    },
+    "Pregunta %lld de %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pregunta %1$lld de %2$lld"
+          }
+        }
+      }
+    },
     "Privacy Policy" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -470,6 +521,9 @@
         }
       }
     },
+    "Puntuación: %lld" : {
+
+    },
     "Question %@ of %@" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -477,16 +531,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Question %1$@ of %2$@"
-          }
-        }
-      }
-    },
-    "Question %lld of %lld" : {
-      "localizations" : {
-        "es" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Question %1$lld of %2$lld"
           }
         }
       }
@@ -541,6 +585,9 @@
         }
       }
     },
+    "Salir" : {
+
+    },
     "Score: %@" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -551,9 +598,6 @@
           }
         }
       }
-    },
-    "Score: %lld" : {
-
     },
     "Send Feedback" : {
       "extractionState" : "stale",
@@ -680,6 +724,7 @@
       }
     },
     "Try Again" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -688,6 +733,9 @@
           }
         }
       }
+    },
+    "Tu progreso se perderá. ¿Estás seguro de que quieres salir?" : {
+
     },
     "Version 1.0.0" : {
       "localizations" : {
@@ -698,6 +746,9 @@
           }
         }
       }
+    },
+    "Volver a Categorías" : {
+
     },
     "Well done! You have a solid understanding of the scriptures. Continue to grow in knowledge!" : {
       "extractionState" : "stale",
@@ -722,6 +773,7 @@
       }
     },
     "Your progress will be lost. Are you sure you want to exit?" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {

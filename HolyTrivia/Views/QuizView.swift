@@ -2,11 +2,15 @@
 import SwiftUI
 
 struct QuizView: View {
-    @ObservedObject var quizViewModel: QuizViewModel
+    @StateObject private var quizViewModel: QuizViewModel
     @Environment(\.presentationMode) var presentationMode
     @State private var showExitAlert = false
     @State private var animateCorrectAnswer = false
     @State private var progressBarValue = 0.0
+    
+    init(category: Category, questionsCount: Int) {
+        _quizViewModel = StateObject(wrappedValue: QuizViewModel(category: category, questionsCount: questionsCount))
+    }
     
     var body: some View {
         ZStack {
@@ -29,10 +33,43 @@ struct QuizView: View {
                     ProgressView()
                         .scaleEffect(1.5)
                     
-                    Text("Loading questions...")
+                    Text("Cargando preguntas...")
                         .font(.headline)
                         .foregroundColor(Color("PrimaryTextColor"))
                 }
+            } else if quizViewModel.noCategoryQuestions {
+                // Estado cuando la categoría no tiene preguntas
+                VStack(spacing: 20) {
+                    Image(systemName: "questionmark.circle")
+                        .font(.system(size: 60))
+                        .foregroundColor(Color("PrimaryColor"))
+                    
+                    Text("Esta categoría aún no tiene preguntas disponibles")
+                        .font(.headline)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                    
+                    Text("Por favor, selecciona otra categoría para jugar")
+                        .font(.subheadline)
+                        .foregroundColor(Color("SecondaryTextColor"))
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal)
+                    
+                    Button(action: {
+                        presentationMode.wrappedValue.dismiss()
+                    }) {
+                        Text("Volver a Categorías")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .fill(Color("PrimaryColor"))
+                            )
+                    }
+                    .padding(.top)
+                }
+                .padding()
             } else if quizViewModel.errorLoading || quizViewModel.questions.isEmpty {
                 // Estado de error
                 VStack(spacing: 20) {
@@ -40,7 +77,7 @@ struct QuizView: View {
                         .font(.system(size: 60))
                         .foregroundColor(.orange)
                     
-                    Text("No questions available for this category")
+                    Text("Hubo un problema cargando las preguntas")
                         .font(.headline)
                         .multilineTextAlignment(.center)
                         .padding()
@@ -48,7 +85,7 @@ struct QuizView: View {
                     Button(action: {
                         presentationMode.wrappedValue.dismiss()
                     }) {
-                        Text("Back to Categories")
+                        Text("Volver a Categorías")
                             .font(.headline)
                             .foregroundColor(.white)
                             .padding()
@@ -79,7 +116,7 @@ struct QuizView: View {
                             Spacer()
                             
                             // Puntuación
-                            Text("Score: \(quizViewModel.score)")
+                            Text("Puntuación: \(quizViewModel.score)")
                                 .font(.headline)
                                 .foregroundColor(Color("PrimaryColor"))
                                 .padding(.horizontal, 16)
@@ -129,7 +166,7 @@ struct QuizView: View {
                             
                             // Indicador de número de pregunta y temporizador
                             HStack {
-                                Text("Question \(quizViewModel.currentQuestionIndex + 1) of \(quizViewModel.questions.count)")
+                                Text("Pregunta \(quizViewModel.currentQuestionIndex + 1) de \(quizViewModel.questions.count)")
                                     .font(.subheadline)
                                     .foregroundColor(Color("SecondaryTextColor"))
                                 
@@ -225,12 +262,12 @@ struct QuizView: View {
                 }
                 .alert(isPresented: $showExitAlert) {
                     Alert(
-                        title: Text("Exit Quiz?"),
-                        message: Text("Your progress will be lost. Are you sure you want to exit?"),
-                        primaryButton: .destructive(Text("Exit")) {
+                        title: Text("¿Salir del Quiz?"),
+                        message: Text("Tu progreso se perderá. ¿Estás seguro de que quieres salir?"),
+                        primaryButton: .destructive(Text("Salir")) {
                             presentationMode.wrappedValue.dismiss()
                         },
-                        secondaryButton: .cancel()
+                        secondaryButton: .cancel(Text("Cancelar"))
                     )
                 }
                 
@@ -242,14 +279,19 @@ struct QuizView: View {
             } else {
                 // Estado en el que no hay una pregunta actual, pero tampoco está cargando
                 VStack(spacing: 20) {
-                    Text("No questions available")
+                    Image(systemName: "exclamationmark.triangle.fill")
+                        .font(.system(size: 60))
+                        .foregroundColor(.orange)
+                    
+                    Text("Error inesperado: no se pudo cargar la pregunta")
                         .font(.headline)
                         .foregroundColor(Color("PrimaryTextColor"))
+                        .multilineTextAlignment(.center)
                     
                     Button(action: {
                         presentationMode.wrappedValue.dismiss()
                     }) {
-                        Text("Back to Categories")
+                        Text("Volver a Categorías")
                             .font(.headline)
                             .foregroundColor(.white)
                             .padding()
@@ -264,9 +306,19 @@ struct QuizView: View {
         }
         .edgesIgnoringSafeArea(.bottom)
         .onAppear {
-            print("QuizView onAppear")
-            // Ensure quiz is started when view appears
-            quizViewModel.startQuiz()
+            print("QuizView onAppear - Esperando a que terminen de cargarse las preguntas")
+        }
+        .onReceive(quizViewModel.$isLoading.dropFirst()) { loading in
+            if loading == false {
+                print("Carga de preguntas completada, verificando disponibilidad")
+                
+                if !quizViewModel.questions.isEmpty && quizViewModel.currentQuestion != nil && !quizViewModel.isQuizStarted {
+                    // Solo iniciar el quiz si no está ya iniciado
+                    DispatchQueue.main.async {
+                        quizViewModel.startQuiz()
+                    }
+                }
+            }
         }
         .onChange(of: quizViewModel.currentQuestionIndex) { _ in
             // Update progress bar

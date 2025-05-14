@@ -15,6 +15,8 @@ class QuizViewModel: ObservableObject {
     @Published var quizResult: QuizResult?
     @Published var isLoading: Bool = true
     @Published var errorLoading: Bool = false
+    @Published var noCategoryQuestions: Bool = false
+    @Published var isQuizStarted: Bool = false
     
     // Datos del quiz
     private var category: Category
@@ -40,6 +42,7 @@ class QuizViewModel: ObservableObject {
     private func loadQuestions() {
         isLoading = true
         errorLoading = false
+        noCategoryQuestions = false
         
         DispatchQueue.global(qos: .userInitiated).async { [weak self] in
             guard let self = self else { return }
@@ -48,28 +51,26 @@ class QuizViewModel: ObservableObject {
             let allQuestions = PersistenceManager.shared.loadQuestions()
             print("Total de preguntas cargadas: \(allQuestions.count)")
             
+            if allQuestions.isEmpty {
+                DispatchQueue.main.async {
+                    self.errorLoading = true
+                    self.isLoading = false
+                    print("ERROR: No se pudieron cargar preguntas del JSON")
+                }
+                return
+            }
+            
             // Filtrar por categoría
             let categoryQuestions = allQuestions.filter { $0.category == self.category.id }
             print("Preguntas de la categoría \(self.category.id): \(categoryQuestions.count)")
             
-            // Si no hay preguntas para esta categoría, usar cualquier pregunta
+            // Si no hay preguntas para esta categoría
             if categoryQuestions.isEmpty {
                 print("No se encontraron preguntas para la categoría: \(self.category.id)")
-                
-                // Utilizar preguntas de cualquier categoría como respaldo
-                let backupQuestions = allQuestions.isEmpty ? [] : Array(allQuestions.shuffled().prefix(self.questionsPerQuiz))
-                
                 DispatchQueue.main.async {
-                    if backupQuestions.isEmpty {
-                        self.errorLoading = true
-                    } else {
-                        print("Usando \(backupQuestions.count) preguntas de respaldo")
-                        self.questions = backupQuestions
-                        if let firstQuestion = self.questions.first {
-                            self.currentQuestion = firstQuestion
-                        }
-                    }
+                    self.noCategoryQuestions = true
                     self.isLoading = false
+                    print("Esta categoría no tiene preguntas disponibles")
                 }
                 return
             }
@@ -87,8 +88,11 @@ class QuizViewModel: ObservableObject {
                 if !self.questions.isEmpty {
                     self.currentQuestion = self.questions[0]
                     print("Primera pregunta establecida: \(self.currentQuestion?.text ?? "Ninguna")")
+                    
+                    // Inicializar el estado del quiz aquí mismo, ahora que tenemos preguntas
+                    self.initializeQuizState()
                 } else {
-                    print("No se pudieron seleccionar preguntas")
+                    print("ERROR: No se pudieron seleccionar preguntas")
                     self.errorLoading = true
                 }
                 
@@ -97,11 +101,28 @@ class QuizViewModel: ObservableObject {
         }
     }
     
-    // Iniciar el quiz
+    // Inicializar estado del quiz (llamado automáticamente después de cargar preguntas)
+    private func initializeQuizState() {
+        currentQuestionIndex = 0
+        score = 0
+        isQuizCompleted = false
+        selectedAnswerIndex = nil
+        isCorrectAnswer = nil
+        showFeedback = false
+        
+        startTime = Date()
+        startTimer()
+        isQuizStarted = true
+        
+        print("Estado del quiz inicializado automáticamente")
+    }
+    
+    // Iniciar el quiz (para llamar manualmente si es necesario)
     func startQuiz() {
-        print("Iniciando quiz")
+        print("Intentando iniciar quiz, estado de carga: \(isLoading), preguntas: \(questions.count)")
+        
         if isLoading {
-            print("Todavía cargando preguntas...")
+            print("Quiz no iniciado - todavía cargando preguntas")
             return
         }
         
@@ -110,18 +131,12 @@ class QuizViewModel: ObservableObject {
             return
         }
         
-        currentQuestionIndex = 0
-        score = 0
-        isQuizCompleted = false
-        selectedAnswerIndex = nil
-        isCorrectAnswer = nil
-        showFeedback = false
-        
-        currentQuestion = questions[0]
-        print("Primera pregunta: \(currentQuestion?.text ?? "Ninguna")")
-        
-        startTime = Date()
-        startTimer()
+        // Solo reinicializar todo si no se ha hecho ya
+        if !isQuizStarted {
+            initializeQuizState()
+        } else {
+            print("El quiz ya está iniciado")
+        }
     }
     
     // Iniciar el temporizador para la pregunta actual

@@ -8,6 +8,8 @@ struct CategoriesView: View {
     @State private var showQuiz = false
     @State private var numberOfQuestions = 10
     @State private var isShowingQuestionPicker = false
+    @State private var showNoCategoryAlert = false
+    @State private var emptyCategory: String = ""
     
     var body: some View {
         NavigationView {
@@ -18,7 +20,7 @@ struct CategoriesView: View {
                 VStack(spacing: 0) {
                     // Cabecera
                     HStack {
-                        Text("Choose a Category")
+                        Text("Elige una Categoría")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(Color("PrimaryTextColor"))
@@ -64,7 +66,7 @@ struct CategoriesView: View {
                             Button(action: {
                                 categoriesViewModel.loadCategories()
                             }) {
-                                Text("Try Again")
+                                Text("Intentar de nuevo")
                                     .font(.headline)
                                     .foregroundColor(.white)
                                     .padding()
@@ -83,11 +85,21 @@ struct CategoriesView: View {
                                 ForEach(categoriesViewModel.categories) { category in
                                     CategoryCardView(
                                         category: category,
-                                        stats: categoriesViewModel.getStatsFor(categoryId: category.id)
+                                        stats: categoriesViewModel.getStatsFor(categoryId: category.id),
+                                        hasQuestions: categoriesViewModel.categoryHasQuestions(categoryId: category.id)
                                     )
                                     .onTapGesture {
-                                        selectedCategory = category
-                                        showQuiz = true
+                                        print("Categoría seleccionada: \(category.id) - \(category.name)")
+                                        
+                                        // Verificar si la categoría tiene preguntas antes de continuar
+                                        if categoriesViewModel.categoryHasQuestions(categoryId: category.id) {
+                                            selectedCategory = category
+                                            showQuiz = true
+                                        } else {
+                                            // Mostrar alerta de categoría sin preguntas
+                                            emptyCategory = category.name
+                                            showNoCategoryAlert = true
+                                        }
                                     }
                                 }
                             }
@@ -105,14 +117,23 @@ struct CategoriesView: View {
                 .fullScreenCover(isPresented: $showQuiz) {
                     if let category = selectedCategory {
                         QuizView(
-                            quizViewModel: QuizViewModel(
-                                category: category,
-                                questionsCount: numberOfQuestions
-                            )
+                            category: category,
+                            questionsCount: numberOfQuestions
                         )
                     }
                 }
+                .alert(isPresented: $showNoCategoryAlert) {
+                    Alert(
+                        title: Text("Categoría sin preguntas"),
+                        message: Text("La categoría '\(emptyCategory)' aún no tiene preguntas disponibles. Por favor, selecciona otra categoría."),
+                        dismissButton: .default(Text("Entendido"))
+                    )
+                }
             }
+        }
+        .onAppear {
+            // Cargar categorías y verificar cuáles tienen preguntas
+            categoriesViewModel.checkCategoriesWithQuestions()
         }
     }
 }

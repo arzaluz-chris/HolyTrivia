@@ -1,9 +1,16 @@
-// CategoryCard.swift
+// CategoryCardView.swift
 import SwiftUI
 
 struct CategoryCardView: View {
     var category: Category
     var stats: CategoryStat?
+    var hasQuestions: Bool
+    
+    init(category: Category, stats: CategoryStat?, hasQuestions: Bool = true) {
+        self.category = category
+        self.stats = stats
+        self.hasQuestions = hasQuestions
+    }
     
     var body: some View {
         ZStack {
@@ -15,6 +22,7 @@ struct CategoryCardView: View {
             )
             .cornerRadius(16)
             .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 3)
+            .opacity(hasQuestions ? 1.0 : 0.5)
             
             HStack(spacing: 16) {
                 // Ícono
@@ -30,10 +38,24 @@ struct CategoryCardView: View {
                 
                 VStack(alignment: .leading, spacing: 8) {
                     // Título
-                    Text(category.name)
-                        .font(.title3)
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
+                    HStack {
+                        Text(category.name)
+                            .font(.title3)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                        
+                        if !hasQuestions {
+                            Text("(Sin preguntas)")
+                                .font(.caption)
+                                .foregroundColor(.white.opacity(0.7))
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 4)
+                                .background(
+                                    Capsule()
+                                        .fill(Color.white.opacity(0.2))
+                                )
+                        }
+                    }
                     
                     // Progreso
                     if let stats = stats {
@@ -42,21 +64,23 @@ struct CategoryCardView: View {
                             .frame(height: 8)
                         
                         HStack {
-                            Text("\(stats.answeredQuestions) of \(stats.totalQuestions) questions")
+                            Text("\(stats.answeredQuestions) de \(stats.totalQuestions) preguntas")
                                 .font(.caption)
                                 .foregroundColor(.white.opacity(0.9))
                             
                             Spacer()
                             
-                            Text("\(Int(stats.accuracy * 100))% correct")
+                            Text("\(Int(stats.accuracy * 100))% correcto")
                                 .font(.caption)
                                 .fontWeight(.bold)
                                 .foregroundColor(.white)
                         }
                     } else {
-                        Text("Not played yet")
-                            .font(.caption)
-                            .foregroundColor(.white.opacity(0.9))
+                        if hasQuestions {
+                            Text("No jugado aún")
+                                .font(.caption)
+                                .foregroundColor(.white.opacity(0.9))
+                        }
                     }
                 }
                 .padding(.vertical, 16)
@@ -64,7 +88,7 @@ struct CategoryCardView: View {
                 Spacer()
                 
                 // Flecha para indicar que es seleccionable
-                Image(systemName: "chevron.right")
+                Image(systemName: hasQuestions ? "chevron.right" : "lock.fill")
                     .foregroundColor(.white.opacity(0.7))
                     .padding(.trailing, 16)
             }
