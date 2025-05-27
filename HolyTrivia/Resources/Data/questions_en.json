@@ -2,230 +2,3245 @@
   "categories": [
     {
       "id": "old_testament",
-      "name": "Old Testament",
-      "icon": "old_testament_icon"
+      "name": "Old Testament"
     },
     {
       "id": "gospels",
-      "name": "Gospels",
-      "icon": "gospels_icon"
+      "name": "Gospels"
     },
     {
       "id": "new_testament",
-      "name": "New Testament",
-      "icon": "new_testament_icon"
+      "name": "New Testament"
     },
     {
       "id": "bible_characters",
-      "name": "Bible Characters",
-      "icon": "characters_icon"
+      "name": "Bible Characters"
     },
     {
       "id": "wisdom",
-      "name": "Wisdom & Prophecies",
-      "icon": "wisdom_icon"
+      "name": "Wisdom and Prophecies"
     }
   ],
   "questions": [
     {
-      "id": "q001",
-      "text": "Who built the ark?",
-      "options": ["Noah", "Moses", "Abraham", "David"],
+      "id": "q021",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q022",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q023",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q024",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q025",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q026",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q027",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q028",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q029",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q030",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q031",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q032",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q033",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q034",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q035",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q036",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q037",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q038",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q039",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q040",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q041",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q042",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q043",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q044",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q045",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q046",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q047",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q048",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q049",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q050",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q051",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q052",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q053",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q054",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q055",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q056",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q057",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q058",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q059",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q060",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q061",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q062",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q063",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q064",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q065",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q066",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q067",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q068",
+      "text": "Which book comes immediately after Genesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Exodus is the second book of the Old Testament, following Genesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q069",
+      "text": "Who parted the Red Sea so the Israelites could cross?",
+      "options": [
+        "Joshua",
+        "Elijah",
+        "Moses",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moses, with God's help, parted the Red Sea so the Israelites could escape from Egypt.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q070",
+      "text": "What was the sign of the covenant between God and Noah?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "God placed a rainbow in the sky as a sign of His covenant with Noah.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q071",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q072",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
       "correctOption": 0,
-      "explanation": "Noah built the ark according to God's instructions before the great flood.",
-      "imageRef": "noah_ark",
-      "category": "old_testament",
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
       "difficulty": 1
     },
     {
-      "id": "q002",
-      "text": "How many days and nights did it rain during the flood?",
-      "options": ["30", "40", "60", "100"],
-      "correctOption": 1,
-      "explanation": "It rained for 40 days and 40 nights according to Genesis 7:12.",
-      "imageRef": "flood",
-      "category": "old_testament",
-      "difficulty": 1
-    },
-    {
-      "id": "q003",
-      "text": "Who was the first king of Israel?",
-      "options": ["David", "Saul", "Solomon", "Samuel"],
-      "correctOption": 1,
-      "explanation": "Saul was the first king of Israel, anointed by the prophet Samuel.",
-      "imageRef": "king_saul",
-      "category": "old_testament",
-      "difficulty": 2
-    },
-    {
-      "id": "q004",
-      "text": "Who killed Goliath?",
-      "options": ["Saul", "David", "Samson", "Samuel"],
-      "correctOption": 1,
-      "explanation": "David killed the Philistine giant Goliath with a sling and a stone.",
-      "imageRef": "david_goliath",
-      "category": "old_testament",
-      "difficulty": 1
-    },
-    {
-      "id": "q005",
-      "text": "Which of the following is NOT one of the Ten Commandments?",
-      "options": ["You shall not kill", "Love your neighbor as yourself", "You shall not steal", "You shall have no other gods before me"],
-      "correctOption": 1,
-      "explanation": "\"Love your neighbor as yourself\" is an important commandment taught by Jesus, but not part of the original Ten Commandments given to Moses.",
-      "imageRef": "ten_commandments",
-      "category": "old_testament",
-      "difficulty": 2
-    },
-    {
-      "id": "q006",
-      "text": "How many books are in the Old Testament?",
-      "options": ["27", "39", "46", "66"],
-      "correctOption": 1,
-      "explanation": "The Old Testament consists of 39 books in the standard Protestant Bible.",
-      "imageRef": "bible",
-      "category": "old_testament",
-      "difficulty": 2
-    },
-    {
-      "id": "q007",
-      "text": "How many apostles did Jesus choose?",
-      "options": ["7", "10", "12", "14"],
+      "id": "q073",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
       "correctOption": 2,
-      "explanation": "Jesus chose 12 apostles as his closest followers.",
-      "imageRef": "apostles",
-      "category": "gospels",
-      "difficulty": 1
-    },
-    {
-      "id": "q008",
-      "text": "What was Jesus' first miracle recorded in the Gospel of John?",
-      "options": ["Healing a leper", "Turning water into wine", "Feeding the 5000", "Walking on water"],
-      "correctOption": 1,
-      "explanation": "Jesus' first recorded miracle in John was turning water into wine at the wedding in Cana.",
-      "imageRef": "water_to_wine",
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
       "category": "gospels",
       "difficulty": 2
     },
     {
-      "id": "q009",
-      "text": "Who betrayed Jesus?",
-      "options": ["Peter", "Judas Iscariot", "John", "Thomas"],
-      "correctOption": 1,
-      "explanation": "Judas Iscariot betrayed Jesus for 30 pieces of silver.",
-      "imageRef": "judas_betrayal",
-      "category": "gospels",
-      "difficulty": 1
-    },
-    {
-      "id": "q010",
-      "text": "Who denied knowing Jesus three times?",
-      "options": ["John", "Matthew", "Peter", "James"],
+      "id": "q074",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
       "correctOption": 2,
-      "explanation": "Peter denied knowing Jesus three times, as Jesus had predicted.",
-      "imageRef": "peter_denial",
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
       "category": "gospels",
-      "difficulty": 1
-    },
-    {
-      "id": "q011",
-      "text": "Which of the following books is NOT part of the New Testament?",
-      "options": ["Romans", "Isaiah", "Philippians", "Revelation"],
-      "correctOption": 1,
-      "explanation": "Isaiah is a book from the Old Testament. The others are all New Testament books.",
-      "imageRef": "bible_books",
-      "category": "new_testament",
       "difficulty": 2
     },
     {
-      "id": "q012",
-      "text": "Who wrote the majority of the New Testament letters?",
-      "options": ["Peter", "John", "Paul", "James"],
-      "correctOption": 2,
-      "explanation": "Paul is credited with writing at least 13 of the 27 books in the New Testament.",
-      "imageRef": "paul",
-      "category": "new_testament",
-      "difficulty": 1
-    },
-    {
-      "id": "q013",
-      "text": "On which island was John when he wrote the book of Revelation?",
-      "options": ["Crete", "Cyprus", "Sicily", "Patmos"],
-      "correctOption": 3,
-      "explanation": "John was exiled on the island of Patmos when he received the vision of Revelation.",
-      "imageRef": "patmos",
-      "category": "new_testament",
-      "difficulty": 2
-    },
-    {
-      "id": "q014",
-      "text": "Which disciple is often called 'the disciple whom Jesus loved'?",
-      "options": ["Peter", "John", "Matthew", "Andrew"],
-      "correctOption": 1,
-      "explanation": "John is referred to as 'the disciple whom Jesus loved' in the Gospel of John.",
-      "imageRef": "john",
-      "category": "bible_characters",
-      "difficulty": 2
-    },
-    {
-      "id": "q015",
-      "text": "Who was thrown into a lions' den but survived?",
-      "options": ["David", "Daniel", "Elijah", "Jeremiah"],
-      "correctOption": 1,
-      "explanation": "Daniel was thrown into a lions' den for praying to God instead of the king, but God protected him.",
-      "imageRef": "daniel",
-      "category": "bible_characters",
-      "difficulty": 1
-    },
-    {
-      "id": "q016",
-      "text": "Which prophet was taken up to heaven in a whirlwind with a chariot and horses of fire?",
-      "options": ["Elijah", "Elisha", "Isaiah", "Jeremiah"],
+      "id": "q075",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
       "correctOption": 0,
-      "explanation": "Elijah was taken up to heaven in a whirlwind, accompanied by a chariot and horses of fire.",
-      "imageRef": "elijah",
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q076",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q077",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q078",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q079",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q080",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q081",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q082",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q083",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q084",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q085",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q086",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q087",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q088",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q089",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q090",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q091",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q092",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q093",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q094",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q095",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q096",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q097",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q098",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q099",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q100",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q101",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q102",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q103",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q104",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q105",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q106",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q107",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q108",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q109",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q110",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q111",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q112",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q113",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q114",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q115",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q116",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q117",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q118",
+      "text": "Whom did Jesus raise after four days in the tomb?",
+      "options": [
+        "Jairus",
+        "Widow's son",
+        "Lazarus",
+        "Stephen"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus raised Lazarus after he had been dead for four days, according to John 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q119",
+      "text": "Where did Jesus preach the Sermon on the Mount?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus preached the Sermon on the Mount on a mountainside, as described in Matthew 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q120",
+      "text": "Which disciple walked on water toward Jesus?",
+      "options": [
+        "Peter",
+        "John",
+        "James",
+        "Thomas"
+      ],
+      "correctOption": 0,
+      "explanation": "Peter walked on water toward Jesus before doubting and beginning to sink.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q121",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q122",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q123",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q124",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q125",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q126",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q127",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q128",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q129",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q130",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q131",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q132",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q133",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q134",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q135",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q136",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q137",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q138",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q139",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q140",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q141",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q142",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q143",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q144",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q145",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q146",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q147",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q148",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q149",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q150",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q151",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q152",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q153",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q154",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q155",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q156",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q157",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q158",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q159",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q160",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q161",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q162",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q163",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q164",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q165",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q166",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q167",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q168",
+      "text": "To whom did Jesus appear on the road to Damascus?",
+      "options": [
+        "Peter",
+        "John",
+        "Saul",
+        "Philip"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesus appeared to Saul (later Paul) on the road to Damascus.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q169",
+      "text": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Hebrews"
+      ],
+      "correctOption": 2,
+      "explanation": "Revelation is the last book of the New Testament and the Bible.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q170",
+      "text": "Who wrote the book of Acts?",
+      "options": [
+        "Luke",
+        "Peter",
+        "Paul",
+        "John"
+      ],
+      "correctOption": 0,
+      "explanation": "Luke, the physician, wrote both the Gospel of Luke and the book of Acts.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q171",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q172",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
       "category": "bible_characters",
       "difficulty": 2
     },
     {
-      "id": "q017",
-      "text": "In Proverbs, what is said to be 'the beginning of wisdom'?",
-      "options": ["Knowledge", "Understanding", "The fear of the Lord", "Learning"],
-      "correctOption": 2,
-      "explanation": "Proverbs 9:10 states, 'The fear of the LORD is the beginning of wisdom.'",
-      "imageRef": "wisdom",
+      "id": "q173",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q174",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q175",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q176",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q177",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q178",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q179",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q180",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q181",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q182",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q183",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q184",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q185",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q186",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q187",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q188",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q189",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q190",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q191",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q192",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q193",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q194",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q195",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q196",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q197",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q198",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q199",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q200",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q201",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q202",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q203",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q204",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q205",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q206",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q207",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q208",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q209",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q210",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q211",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q212",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q213",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q214",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q215",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q216",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q217",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q218",
+      "text": "Who was known for his supernatural strength?",
+      "options": [
+        "David",
+        "Samson",
+        "Gideon",
+        "Elisha"
+      ],
+      "correctOption": 1,
+      "explanation": "Samson had supernatural strength given by God.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q219",
+      "text": "Who was Jesus' mother?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Rebekah"
+      ],
+      "correctOption": 1,
+      "explanation": "Mary was the mother of Jesus, according to the Gospels.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q220",
+      "text": "Which king wrote many of the Psalms?",
+      "options": [
+        "Solomon",
+        "David",
+        "Saul",
+        "Hezekiah"
+      ],
+      "correctOption": 1,
+      "explanation": "King David wrote many of the Psalms included in the Bible.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q221",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
       "category": "wisdom",
       "difficulty": 2
     },
     {
-      "id": "q018",
-      "text": "Which book contains the verse 'For God so loved the world that he gave his one and only Son'?",
-      "options": ["Matthew", "Mark", "Luke", "John"],
-      "correctOption": 3,
-      "explanation": "John 3:16 is one of the most well-known verses in the Bible.",
-      "imageRef": "john316",
-      "category": "gospels",
+      "id": "q222",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
       "difficulty": 1
     },
     {
-      "id": "q019",
-      "text": "Which prophet saw the vision of the valley of dry bones?",
-      "options": ["Isaiah", "Jeremiah", "Ezekiel", "Daniel"],
-      "correctOption": 2,
-      "explanation": "Ezekiel had the vision of the valley of dry bones coming back to life in Ezekiel 37.",
-      "imageRef": "dry_bones",
+      "id": "q223",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
       "category": "wisdom",
       "difficulty": 2
     },
     {
-      "id": "q020",
-      "text": "Where was Jesus born?",
-      "options": ["Nazareth", "Bethlehem", "Jerusalem", "Galilee"],
+      "id": "q224",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
       "correctOption": 1,
-      "explanation": "Jesus was born in Bethlehem, as prophesied in the Old Testament.",
-      "imageRef": "bethlehem",
-      "category": "gospels",
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q225",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
       "difficulty": 1
+    },
+    {
+      "id": "q226",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q227",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q228",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q229",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q230",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q231",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q232",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q233",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q234",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q235",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q236",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q237",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q238",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q239",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q240",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q241",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q242",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q243",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q244",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q245",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q246",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q247",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q248",
+      "text": "Which book contains many wise proverbs attributed to Solomon?",
+      "options": [
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Isaiah"
+      ],
+      "correctOption": 1,
+      "explanation": "The book of Proverbs contains wisdom largely attributed to Solomon.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q249",
+      "text": "Which prophet is known for his vision of God's throne?",
+      "options": [
+        "Ezequiel",
+        "Isaiah",
+        "Jeremiah",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezekiel saw a vision of God's throne with living creatures and wheels.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q250",
+      "text": "Which prophet said: 'For unto us a child is born, unto us a son is given'?",
+      "options": [
+        "Malachi",
+        "Isaiah",
+        "Jeremiah",
+        "Hosea"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaiah prophesied the birth of the Messiah in Isaiah 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
     }
   ]
 }

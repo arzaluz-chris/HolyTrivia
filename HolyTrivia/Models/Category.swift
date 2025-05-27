@@ -5,7 +5,7 @@ import SwiftUI
 struct Category: Identifiable, Codable {
     var id: String
     var name: String
-    var icon: String
+    var icon: String? // Ahora es opcional
     
     // Propiedades computadas que no se codifican
     var color: Color {
@@ -20,7 +20,7 @@ struct Category: Identifiable, Codable {
     }
     
     var iconImage: Image {
-        if let uiImage = UIImage(named: icon) {
+        if let iconName = icon, let uiImage = UIImage(named: iconName) {
             return Image(uiImage: uiImage)
         }
         return systemIcon
@@ -41,8 +41,24 @@ struct Category: Identifiable, Codable {
         }
     }
     
-    // Para codificación/decodificación
+    // Para codificación/decodificación - icon es opcional
     enum CodingKeys: String, CodingKey {
         case id, name, icon
+    }
+    
+    // Decodificación personalizada para manejar icon opcional
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        
+        self.id = try container.decode(String.self, forKey: .id)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.icon = try container.decodeIfPresent(String.self, forKey: .icon)
+    }
+    
+    // Inicializador manual para casos donde se crea programáticamente
+    init(id: String, name: String, icon: String? = nil) {
+        self.id = id
+        self.name = name
+        self.icon = icon
     }
 }

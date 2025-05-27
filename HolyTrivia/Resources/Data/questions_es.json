@@ -2,230 +2,3245 @@
   "categories": [
     {
       "id": "old_testament",
-      "name": "Antiguo Testamento",
-      "icon": "old_testament_icon"
+      "name": "Antiguo Testamento"
     },
     {
       "id": "gospels",
-      "name": "Evangelios",
-      "icon": "gospels_icon"
+      "name": "Evangelios"
     },
     {
       "id": "new_testament",
-      "name": "Nuevo Testamento",
-      "icon": "new_testament_icon"
+      "name": "Nuevo Testamento"
     },
     {
       "id": "bible_characters",
-      "name": "Personajes Bíblicos",
-      "icon": "characters_icon"
+      "name": "Personajes Bíblicos"
     },
     {
       "id": "wisdom",
-      "name": "Sabiduría y Profecías",
-      "icon": "wisdom_icon"
+      "name": "Sabiduría y Profecías"
     }
   ],
   "questions": [
     {
-      "id": "q001",
-      "text": "¿Quién construyó el arca?",
-      "options": ["Noé", "Moisés", "Abraham", "David"],
+      "id": "q021",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q022",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q023",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q024",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q025",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q026",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q027",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q028",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q029",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q030",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q031",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q032",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q033",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q034",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q035",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q036",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q037",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q038",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q039",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q040",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q041",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q042",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q043",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q044",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q045",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q046",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q047",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q048",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q049",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q050",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q051",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q052",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q053",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q054",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q055",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q056",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q057",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q058",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q059",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q060",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q061",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q062",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q063",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q064",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q065",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q066",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q067",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q068",
+      "text": "¿Qué libro viene inmediatamente después de Génesis?",
+      "options": [
+        "Levítico",
+        "Éxodo",
+        "Números",
+        "Deuteronomio"
+      ],
+      "correctOption": 1,
+      "explanation": "Éxodo es el segundo libro del Antiguo Testamento, después de Génesis.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q069",
+      "text": "¿Quién dividió el Mar Rojo para que los israelitas pudieran cruzar?",
+      "options": [
+        "Josué",
+        "Elías",
+        "Moisés",
+        "Abraham"
+      ],
+      "correctOption": 2,
+      "explanation": "Moisés, con la ayuda de Dios, dividió el Mar Rojo para que los israelitas pudieran escapar de Egipto.",
+      "category": "old_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q070",
+      "text": "¿Cuál fue la señal del pacto entre Dios y Noé?",
+      "options": [
+        "Una paloma",
+        "Un arco iris",
+        "Un sacrificio",
+        "Un trueno"
+      ],
+      "correctOption": 1,
+      "explanation": "Dios puso un arco iris en el cielo como señal de su pacto con Noé.",
+      "category": "old_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q071",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q072",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
       "correctOption": 0,
-      "explanation": "Noé construyó el arca según las instrucciones de Dios antes del gran diluvio.",
-      "imageRef": "noah_ark",
-      "category": "old_testament",
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
       "difficulty": 1
     },
     {
-      "id": "q002",
-      "text": "¿Cuántos días y noches llovió durante el diluvio?",
-      "options": ["30", "40", "60", "100"],
-      "correctOption": 1,
-      "explanation": "Llovió durante 40 días y 40 noches según Génesis 7:12.",
-      "imageRef": "flood",
-      "category": "old_testament",
-      "difficulty": 1
-    },
-    {
-      "id": "q003",
-      "text": "¿Quién fue el primer rey de Israel?",
-      "options": ["David", "Saúl", "Salomón", "Samuel"],
-      "correctOption": 1,
-      "explanation": "Saúl fue el primer rey de Israel, ungido por el profeta Samuel.",
-      "imageRef": "king_saul",
-      "category": "old_testament",
-      "difficulty": 2
-    },
-    {
-      "id": "q004",
-      "text": "¿Quién mató a Goliat?",
-      "options": ["Saúl", "David", "Sansón", "Samuel"],
-      "correctOption": 1,
-      "explanation": "David mató al gigante filisteo Goliat con una honda y una piedra.",
-      "imageRef": "david_goliath",
-      "category": "old_testament",
-      "difficulty": 1
-    },
-    {
-      "id": "q005",
-      "text": "¿Cuál de los siguientes NO es uno de los Diez Mandamientos?",
-      "options": ["No matarás", "Amarás a tu prójimo como a ti mismo", "No robarás", "No tendrás dioses ajenos"],
-      "correctOption": 1,
-      "explanation": "\"Amarás a tu prójimo como a ti mismo\" es un mandamiento importante enseñado por Jesús, pero no forma parte de los Diez Mandamientos originales dados a Moisés.",
-      "imageRef": "ten_commandments",
-      "category": "old_testament",
-      "difficulty": 2
-    },
-    {
-      "id": "q006",
-      "text": "¿Cuántos libros contiene el Antiguo Testamento?",
-      "options": ["27", "39", "46", "66"],
-      "correctOption": 1,
-      "explanation": "El Antiguo Testamento consta de 39 libros en la Biblia protestante estándar.",
-      "imageRef": "bible",
-      "category": "old_testament",
-      "difficulty": 2
-    },
-    {
-      "id": "q007",
-      "text": "¿Cuántos apóstoles eligió Jesús?",
-      "options": ["7", "10", "12", "14"],
+      "id": "q073",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
       "correctOption": 2,
-      "explanation": "Jesús eligió a 12 apóstoles como sus seguidores más cercanos.",
-      "imageRef": "apostles",
-      "category": "gospels",
-      "difficulty": 1
-    },
-    {
-      "id": "q008",
-      "text": "¿Cuál fue el primer milagro de Jesús registrado en el Evangelio de Juan?",
-      "options": ["Sanar a un leproso", "Convertir agua en vino", "Alimentar a 5000", "Caminar sobre el agua"],
-      "correctOption": 1,
-      "explanation": "El primer milagro de Jesús registrado en Juan fue convertir agua en vino en las bodas de Caná.",
-      "imageRef": "water_to_wine",
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
       "category": "gospels",
       "difficulty": 2
     },
     {
-      "id": "q009",
-      "text": "¿Quién traicionó a Jesús?",
-      "options": ["Pedro", "Judas Iscariote", "Juan", "Tomás"],
-      "correctOption": 1,
-      "explanation": "Judas Iscariote traicionó a Jesús por 30 piezas de plata.",
-      "imageRef": "judas_betrayal",
-      "category": "gospels",
-      "difficulty": 1
-    },
-    {
-      "id": "q010",
-      "text": "¿Quién negó conocer a Jesús tres veces?",
-      "options": ["Juan", "Mateo", "Pedro", "Santiago"],
+      "id": "q074",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
       "correctOption": 2,
-      "explanation": "Pedro negó conocer a Jesús tres veces, tal como Jesús lo había predicho.",
-      "imageRef": "peter_denial",
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
       "category": "gospels",
-      "difficulty": 1
-    },
-    {
-      "id": "q011",
-      "text": "¿Cuál de los siguientes libros NO forma parte del Nuevo Testamento?",
-      "options": ["Romanos", "Isaías", "Filipenses", "Apocalipsis"],
-      "correctOption": 1,
-      "explanation": "Isaías es un libro del Antiguo Testamento. Los otros son todos libros del Nuevo Testamento.",
-      "imageRef": "bible_books",
-      "category": "new_testament",
       "difficulty": 2
     },
     {
-      "id": "q012",
-      "text": "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?",
-      "options": ["Pedro", "Juan", "Pablo", "Santiago"],
-      "correctOption": 2,
-      "explanation": "Pablo es acreditado con escribir al menos 13 de los 27 libros del Nuevo Testamento.",
-      "imageRef": "paul",
-      "category": "new_testament",
-      "difficulty": 1
-    },
-    {
-      "id": "q013",
-      "text": "¿En qué isla estaba Juan cuando escribió el libro del Apocalipsis?",
-      "options": ["Creta", "Chipre", "Sicilia", "Patmos"],
-      "correctOption": 3,
-      "explanation": "Juan estaba exiliado en la isla de Patmos cuando recibió la visión del Apocalipsis.",
-      "imageRef": "patmos",
-      "category": "new_testament",
-      "difficulty": 2
-    },
-    {
-      "id": "q014",
-      "text": "¿A qué discípulo se le suele llamar 'el discípulo a quien Jesús amaba'?",
-      "options": ["Pedro", "Juan", "Mateo", "Andrés"],
-      "correctOption": 1,
-      "explanation": "Juan es referido como 'el discípulo a quien Jesús amaba' en el Evangelio de Juan.",
-      "imageRef": "john",
-      "category": "bible_characters",
-      "difficulty": 2
-    },
-    {
-      "id": "q015",
-      "text": "¿Quién fue arrojado a un foso de leones pero sobrevivió?",
-      "options": ["David", "Daniel", "Elías", "Jeremías"],
-      "correctOption": 1,
-      "explanation": "Daniel fue arrojado a un foso de leones por orar a Dios en lugar de al rey, pero Dios lo protegió.",
-      "imageRef": "daniel",
-      "category": "bible_characters",
-      "difficulty": 1
-    },
-    {
-      "id": "q016",
-      "text": "¿Qué profeta fue llevado al cielo en un torbellino con un carro y caballos de fuego?",
-      "options": ["Elías", "Eliseo", "Isaías", "Jeremías"],
+      "id": "q075",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
       "correctOption": 0,
-      "explanation": "Elías fue llevado al cielo en un torbellino, acompañado por un carro y caballos de fuego.",
-      "imageRef": "elijah",
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q076",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q077",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q078",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q079",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q080",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q081",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q082",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q083",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q084",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q085",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q086",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q087",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q088",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q089",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q090",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q091",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q092",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q093",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q094",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q095",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q096",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q097",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q098",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q099",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q100",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q101",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q102",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q103",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q104",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q105",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q106",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q107",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q108",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q109",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q110",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q111",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q112",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q113",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q114",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q115",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q116",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q117",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q118",
+      "text": "¿A quién resucitó Jesús después de cuatro días en la tumba?",
+      "options": [
+        "Jairo",
+        "El hijo de la viuda",
+        "Lázaro",
+        "Esteban"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús resucitó a Lázaro después de que llevaba cuatro días muerto, según Juan 11.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q119",
+      "text": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "options": [
+        "En el templo",
+        "En una sinagoga",
+        "En una montaña",
+        "En un barco"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús predicó el Sermón del Monte en una montaña, según Mateo 5.",
+      "category": "gospels",
+      "difficulty": 2
+    },
+    {
+      "id": "q120",
+      "text": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Santiago",
+        "Tomás"
+      ],
+      "correctOption": 0,
+      "explanation": "Pedro caminó sobre el agua hacia Jesús antes de dudar y comenzar a hundirse.",
+      "category": "gospels",
+      "difficulty": 1
+    },
+    {
+      "id": "q121",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q122",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q123",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q124",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q125",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q126",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q127",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q128",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q129",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q130",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q131",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q132",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q133",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q134",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q135",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q136",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q137",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q138",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q139",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q140",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q141",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q142",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q143",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q144",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q145",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q146",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q147",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q148",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q149",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q150",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q151",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q152",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q153",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q154",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q155",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q156",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q157",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q158",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q159",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q160",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q161",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q162",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q163",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q164",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q165",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q166",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q167",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q168",
+      "text": "¿A quién se le apareció Jesús en el camino a Damasco?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Saulo",
+        "Felipe"
+      ],
+      "correctOption": 2,
+      "explanation": "Jesús se le apareció a Saulo (quien luego fue Pablo) en el camino a Damasco.",
+      "category": "new_testament",
+      "difficulty": 1
+    },
+    {
+      "id": "q169",
+      "text": "¿Cuál es el último libro del Nuevo Testamento?",
+      "options": [
+        "Hechos",
+        "Romanos",
+        "Apocalipsis",
+        "Hebreos"
+      ],
+      "correctOption": 2,
+      "explanation": "Apocalipsis es el último libro del Nuevo Testamento y de la Biblia.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q170",
+      "text": "¿Quién escribió el libro de los Hechos?",
+      "options": [
+        "Lucas",
+        "Pedro",
+        "Pablo",
+        "Juan"
+      ],
+      "correctOption": 0,
+      "explanation": "Lucas, el médico, escribió tanto el Evangelio de Lucas como el libro de los Hechos.",
+      "category": "new_testament",
+      "difficulty": 2
+    },
+    {
+      "id": "q171",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q172",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
       "category": "bible_characters",
       "difficulty": 2
     },
     {
-      "id": "q017",
-      "text": "En Proverbios, ¿qué se dice que es 'el comienzo de la sabiduría'?",
-      "options": ["Conocimiento", "Entendimiento", "El temor del Señor", "Aprendizaje"],
-      "correctOption": 2,
-      "explanation": "Proverbios 9:10 afirma: 'El temor del SEÑOR es el principio de la sabiduría.'",
-      "imageRef": "wisdom",
+      "id": "q173",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q174",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q175",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q176",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q177",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q178",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q179",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q180",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q181",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q182",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q183",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q184",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q185",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q186",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q187",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q188",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q189",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q190",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q191",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q192",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q193",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q194",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q195",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q196",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q197",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q198",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q199",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q200",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q201",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q202",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q203",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q204",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q205",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q206",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q207",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q208",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q209",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q210",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q211",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q212",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q213",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q214",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q215",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q216",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q217",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q218",
+      "text": "¿Quién fue conocido por su fuerza sobrenatural?",
+      "options": [
+        "David",
+        "Sansón",
+        "Gedeón",
+        "Eliseo"
+      ],
+      "correctOption": 1,
+      "explanation": "Sansón tenía una fuerza sobrenatural dada por Dios.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q219",
+      "text": "¿Quién fue la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Elisabet",
+        "Rebeca"
+      ],
+      "correctOption": 1,
+      "explanation": "María fue la madre de Jesús, según los Evangelios.",
+      "category": "bible_characters",
+      "difficulty": 1
+    },
+    {
+      "id": "q220",
+      "text": "¿Qué rey escribió muchos de los Salmos?",
+      "options": [
+        "Salomón",
+        "David",
+        "Saúl",
+        "Ezequías"
+      ],
+      "correctOption": 1,
+      "explanation": "El rey David escribió muchos de los Salmos incluidos en la Biblia.",
+      "category": "bible_characters",
+      "difficulty": 2
+    },
+    {
+      "id": "q221",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
       "category": "wisdom",
       "difficulty": 2
     },
     {
-      "id": "q018",
-      "text": "¿Qué libro contiene el versículo 'Porque de tal manera amó Dios al mundo que dio a su Hijo unigénito'?",
-      "options": ["Mateo", "Marcos", "Lucas", "Juan"],
-      "correctOption": 3,
-      "explanation": "Juan 3:16 es uno de los versículos más conocidos de la Biblia.",
-      "imageRef": "john316",
-      "category": "gospels",
+      "id": "q222",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
       "difficulty": 1
     },
     {
-      "id": "q019",
-      "text": "¿Qué profeta vio la visión del valle de los huesos secos?",
-      "options": ["Isaías", "Jeremías", "Ezequiel", "Daniel"],
-      "correctOption": 2,
-      "explanation": "Ezequiel tuvo la visión del valle de huesos secos volviendo a la vida en Ezequiel 37.",
-      "imageRef": "dry_bones",
+      "id": "q223",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
       "category": "wisdom",
       "difficulty": 2
     },
     {
-      "id": "q020",
-      "text": "¿Dónde nació Jesús?",
-      "options": ["Nazaret", "Belén", "Jerusalén", "Galilea"],
+      "id": "q224",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
       "correctOption": 1,
-      "explanation": "Jesús nació en Belén, como fue profetizado en el Antiguo Testamento.",
-      "imageRef": "bethlehem",
-      "category": "gospels",
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q225",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
       "difficulty": 1
+    },
+    {
+      "id": "q226",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q227",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q228",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q229",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q230",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q231",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q232",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q233",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q234",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q235",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q236",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q237",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q238",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q239",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q240",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q241",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q242",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q243",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q244",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q245",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q246",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q247",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q248",
+      "text": "¿Qué libro contiene muchos proverbios sabios atribuidos a Salomón?",
+      "options": [
+        "Salmos",
+        "Proverbios",
+        "Eclesiastés",
+        "Isaías"
+      ],
+      "correctOption": 1,
+      "explanation": "El libro de Proverbios contiene sabiduría atribuida en su mayoría a Salomón.",
+      "category": "wisdom",
+      "difficulty": 2
+    },
+    {
+      "id": "q249",
+      "text": "¿Qué profeta es conocido por su visión del trono de Dios?",
+      "options": [
+        "Ezequiel",
+        "Isaías",
+        "Jeremías",
+        "Daniel"
+      ],
+      "correctOption": 0,
+      "explanation": "Ezequiel vio una visión del trono de Dios con criaturas vivientes y ruedas.",
+      "category": "wisdom",
+      "difficulty": 1
+    },
+    {
+      "id": "q250",
+      "text": "¿Qué profeta dijo: 'Un niño nos es nacido, hijo nos es dado'?",
+      "options": [
+        "Malaquías",
+        "Isaías",
+        "Jeremías",
+        "Oseas"
+      ],
+      "correctOption": 1,
+      "explanation": "Isaías profetizó sobre el nacimiento del Mesías en Isaías 9:6.",
+      "category": "wisdom",
+      "difficulty": 2
     }
   ]
 }

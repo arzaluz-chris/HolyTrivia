@@ -25,7 +25,7 @@ struct CategoryCardView: View {
             .opacity(hasQuestions ? 1.0 : 0.5)
             
             HStack(spacing: 16) {
-                // Ícono
+                // Ícono - usar siempre el ícono del sistema ya que icon es opcional
                 Image(systemName: category.systemIconName)
                     .font(.system(size: 30))
                     .foregroundColor(.white)

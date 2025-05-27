@@ -7,7 +7,7 @@ struct Question: Identifiable, Codable {
     var options: [String]
     var correctOption: Int
     var explanation: String
-    var imageRef: String?
+    var imageRef: String? // Ya es opcional
     var category: String
     var difficulty: Int
     
@@ -47,6 +47,7 @@ struct Question: Identifiable, Codable {
             self.explanation = "No explanation available."
         }
         
+        // imageRef ya es opcional, usar decodeIfPresent
         self.imageRef = try container.decodeIfPresent(String.self, forKey: .imageRef)
         self.category = try container.decode(String.self, forKey: .category)
         
