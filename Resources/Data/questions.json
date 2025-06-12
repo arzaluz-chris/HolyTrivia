@@ -1,0 +1,204 @@
+{
+  "questions": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "text": "Who was the first king of Israel?",
+      "answers": ["Saul", "David", "Solomon", "Samuel"],
+      "correctIndex": 0,
+      "category": "old_testament",
+      "difficulty": "easy",
+      "explanation": "Saul was anointed by Samuel as the first king of Israel.",
+      "bibleReference": "1 Samuel 10:1"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "text": "How many days did God take to create the world?",
+      "answers": ["5", "6", "7", "8"],
+      "correctIndex": 1,
+      "category": "old_testament",
+      "difficulty": "easy",
+      "explanation": "God created the world in six days and rested on the seventh.",
+      "bibleReference": "Genesis 1-2"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "text": "Who built the ark?",
+      "answers": ["Moses", "Abraham", "Noah", "Joseph"],
+      "correctIndex": 2,
+      "category": "old_testament",
+      "difficulty": "easy",
+      "explanation": "Noah built the ark according to God's instructions to save his family and animals from the flood.",
+      "bibleReference": "Genesis 6:14-22"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "text": "What was the name of Abraham's wife?",
+      "answers": ["Rachel", "Sarah", "Rebecca", "Leah"],
+      "correctIndex": 1,
+      "category": "old_testament",
+      "difficulty": "medium",
+      "explanation": "Sarah was Abraham's wife and the mother of Isaac.",
+      "bibleReference": "Genesis 17:15"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "text": "How many plagues did God send upon Egypt?",
+      "answers": ["7", "9", "10", "12"],
+      "correctIndex": 2,
+      "category": "old_testament",
+      "difficulty": "medium",
+      "explanation": "God sent ten plagues upon Egypt before Pharaoh let the Israelites go.",
+      "bibleReference": "Exodus 7-11"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "text": "Who was swallowed by a great fish?",
+      "answers": ["Elijah", "Jonah", "Daniel", "Jeremiah"],
+      "correctIndex": 1,
+      "category": "old_testament",
+      "difficulty": "easy",
+      "explanation": "Jonah was swallowed by a great fish after trying to flee from God's command.",
+      "bibleReference": "Jonah 1:17"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "text": "Which apostle betrayed Jesus?",
+      "answers": ["Peter", "John", "Judas", "Thomas"],
+      "correctIndex": 2,
+      "category": "new_testament",
+      "difficulty": "easy",
+      "explanation": "Judas Iscariot betrayed Jesus for thirty pieces of silver.",
+      "bibleReference": "Matthew 26:14-16"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "text": "Where was Jesus born?",
+      "answers": ["Nazareth", "Jerusalem", "Bethlehem", "Capernaum"],
+      "correctIndex": 2,
+      "category": "new_testament",
+      "difficulty": "easy",
+      "explanation": "Jesus was born in Bethlehem, the city of David.",
+      "bibleReference": "Luke 2:4-7"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "text": "How many disciples did Jesus choose?",
+      "answers": ["10", "11", "12", "13"],
+      "correctIndex": 2,
+      "category": "new_testament",
+      "difficulty": "easy",
+      "explanation": "Jesus chose twelve disciples to be his apostles.",
+      "bibleReference": "Luke 6:13"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440010",
+      "text": "Who wrote the Book of Revelation?",
+      "answers": ["Paul", "Peter", "John", "Luke"],
+      "correctIndex": 2,
+      "category": "new_testament",
+      "difficulty": "medium",
+      "explanation": "The apostle John wrote the Book of Revelation while on the island of Patmos.",
+      "bibleReference": "Revelation 1:1"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440011",
+      "text": "What is the first book of the Bible?",
+      "answers": ["Exodus", "Genesis", "Leviticus", "Numbers"],
+      "correctIndex": 1,
+      "category": "old_testament",
+      "difficulty": "easy",
+      "explanation": "Genesis is the first book of the Bible and tells of creation and early history.",
+      "bibleReference": "Genesis 1:1"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440012",
+      "text": "Which Gospel was written by a tax collector?",
+      "answers": ["Matthew", "Mark", "Luke", "John"],
+      "correctIndex": 0,
+      "category": "gospels",
+      "difficulty": "medium",
+      "explanation": "Matthew, also called Levi, was a tax collector before following Jesus.",
+      "bibleReference": "Matthew 9:9"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440013",
+      "text": "In which Gospel do we find the parable of the Good Samaritan?",
+      "answers": ["Matthew", "Mark", "Luke", "John"],
+      "correctIndex": 2,
+      "category": "gospels",
+      "difficulty": "medium",
+      "explanation": "The parable of the Good Samaritan is found only in Luke's Gospel.",
+      "bibleReference": "Luke 10:25-37"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440014",
+      "text": "Which Gospel begins with 'In the beginning was the Word'?",
+      "answers": ["Matthew", "Mark", "Luke", "John"],
+      "correctIndex": 3,
+      "category": "gospels",
+      "difficulty": "easy",
+      "explanation": "John's Gospel begins with a profound theological statement about Jesus as the Word.",
+      "bibleReference": "John 1:1"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440015",
+      "text": "Who was the strongest man in the Bible?",
+      "answers": ["David", "Goliath", "Samson", "Solomon"],
+      "correctIndex": 2,
+      "category": "characters",
+      "difficulty": "easy",
+      "explanation": "Samson was given supernatural strength by God, which was connected to his uncut hair.",
+      "bibleReference": "Judges 16:17"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440016",
+      "text": "Who was thrown into a den of lions?",
+      "answers": ["Joseph", "Daniel", "David", "Elijah"],
+      "correctIndex": 1,
+      "category": "characters",
+      "difficulty": "easy",
+      "explanation": "Daniel was thrown into the lions' den for praying to God, but was protected by an angel.",
+      "bibleReference": "Daniel 6:16"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440017",
+      "text": "Who was the mother of Samuel?",
+      "answers": ["Hannah", "Sarah", "Ruth", "Esther"],
+      "correctIndex": 0,
+      "category": "characters",
+      "difficulty": "medium",
+      "explanation": "Hannah prayed earnestly for a child and promised to dedicate him to the Lord.",
+      "bibleReference": "1 Samuel 1:20"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440018",
+      "text": "Which book contains 'The Lord is my shepherd'?",
+      "answers": ["Proverbs", "Psalms", "Ecclesiastes", "Job"],
+      "correctIndex": 1,
+      "category": "wisdom_prophecy",
+      "difficulty": "easy",
+      "explanation": "Psalm 23, written by David, begins with 'The Lord is my shepherd.'",
+      "bibleReference": "Psalm 23:1"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440019",
+      "text": "Who wrote most of the Proverbs?",
+      "answers": ["David", "Moses", "Solomon", "Samuel"],
+      "correctIndex": 2,
+      "category": "wisdom_prophecy",
+      "difficulty": "medium",
+      "explanation": "King Solomon, known for his wisdom, wrote most of the Book of Proverbs.",
+      "bibleReference": "Proverbs 1:1"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440020",
+      "text": "Which prophet was taken up to heaven in a whirlwind?",
+      "answers": ["Isaiah", "Elijah", "Elisha", "Ezekiel"],
+      "correctIndex": 1,
+      "category": "wisdom_prophecy",
+      "difficulty": "medium",
+      "explanation": "Elijah was taken up to heaven in a whirlwind with chariots of fire.",
+      "bibleReference": "2 Kings 2:11"
+    }
+  ]
+}
