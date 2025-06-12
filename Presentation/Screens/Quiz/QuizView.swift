@@ -126,8 +126,9 @@ struct QuizView: View {
                     AnswerButton(
                         text: question.answers[index],
                         isSelected: selectedAnswerIndex == index,
-                        isCorrect: viewModel.lastAnswerWasCorrect && index == question.correctIndex,
-                        isWrong: viewModel.lastAnswerWasCorrect == false && selectedAnswerIndex == index,
+                        // Safely unwrap optional Bool (nil treated as false)
+                        isCorrect: (viewModel.lastAnswerWasCorrect ?? false) && index == question.correctIndex,
+                        isWrong: (!(viewModel.lastAnswerWasCorrect ?? true)) && selectedAnswerIndex == index,
                         isDisabled: viewModel.isProcessingAnswer
                     ) {
                         selectedAnswerIndex = index

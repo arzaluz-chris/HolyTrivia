@@ -5,11 +5,12 @@ import SwiftUI
 struct HomeView: View {
     @StateObject private var viewModel = HomeViewModel()
     @EnvironmentObject private var appContainer: AppContainer
+    @Environment(\.appTheme) private var theme
     
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(spacing: AppTheme.Spacing.large) {
+                VStack(spacing: theme.spacing.large) {
                     // Welcome Header
                     headerSection
                     
@@ -28,9 +29,9 @@ struct HomeView: View {
                             .padding(.horizontal, theme.spacing.medium)
                     }
                 }
-                                    .padding(.vertical, AppTheme.Spacing.medium)
+                .padding(.vertical, theme.spacing.medium)
             }
-            .background(AppTheme.Colors.background)
+            .background(theme.colors.background)
             .navigationBarHidden(true)
             .task {
                 await viewModel.loadData(appContainer: appContainer)
@@ -43,21 +44,21 @@ struct HomeView: View {
     
     // MARK: - View Components
     private var headerSection: some View {
-        VStack(alignment: .leading, spacing: AppTheme.Spacing.xSmall) {
+        VStack(alignment: .leading, spacing: theme.spacing.xSmall) {
             Text(String(localized: "home.welcome"))
-                .font(AppTheme.Typography.largeTitle)
-                .foregroundColor(AppTheme.Colors.textPrimary)
+                .font(theme.typography.largeTitle)
+                .foregroundColor(theme.colors.textPrimary)
             
             Text(String(localized: "home.choose_category"))
-                .font(AppTheme.Typography.body)
-                .foregroundColor(AppTheme.Colors.textSecondary)
+                .font(theme.typography.body)
+                .foregroundColor(theme.colors.textSecondary)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(.horizontal, AppTheme.Spacing.medium)
+        .padding(.horizontal, theme.spacing.medium)
     }
     
     private var categoriesSection: some View {
-        VStack(spacing: AppTheme.Spacing.medium) {
+        VStack(spacing: theme.spacing.medium) {
             ForEach(Category.allCases) { category in
                 NavigationLink(destination: QuizView(category: category)) {
                     CategoryCard(
@@ -66,11 +67,10 @@ struct HomeView: View {
                         isLoading: viewModel.isLoading
                     )
                 }
-                .buttonStyle(PlainButtonStyle())
                 .disabled(viewModel.isLoading)
             }
         }
-        .padding(.horizontal, AppTheme.Spacing.medium)
+        .padding(.horizontal, theme.spacing.medium)
     }
 }
 
@@ -136,7 +136,6 @@ struct CategoryCard: View {
     let category: Category
     let questionCount: Int
     let isLoading: Bool
-    @State private var isPressed = false
     
     var body: some View {
         HStack(spacing: AppTheme.Spacing.medium) {
@@ -175,22 +174,11 @@ struct CategoryCard: View {
         .background(Color.white)
         .cornerRadius(AppTheme.CornerRadius.card)
         .shadow(
-            color: isPressed ? AppTheme.Shadow.small.color : AppTheme.Shadow.card.color,
-            radius: isPressed ? AppTheme.Shadow.small.radius : AppTheme.Shadow.card.radius,
+            color: AppTheme.Shadow.card.color,
+            radius: AppTheme.Shadow.card.radius,
             x: 0,
-            y: isPressed ? AppTheme.Shadow.small.y : AppTheme.Shadow.card.y
+            y: AppTheme.Shadow.card.y
         )
-        .scaleEffect(isPressed ? 0.98 : 1.0)
-        .onTapGesture {
-            withAnimation(AppTheme.Animation.quick) {
-                isPressed = true
-            }
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                withAnimation(AppTheme.Animation.quick) {
-                    isPressed = false
-                }
-            }
-        }
     }
 }
 

@@ -19,10 +19,10 @@ final class AppContainer: ObservableObject {
                 SessionResultSD.self
             ])
             
+            // TODO: CloudKit support will require making all attributes optional or providing default values and removing unique constraints.
             let modelConfiguration = ModelConfiguration(
                 schema: schema,
-                isStoredInMemoryOnly: false,
-                cloudKitDatabase: .private("iCloud.com.yourcompany.holytrivia")
+                isStoredInMemoryOnly: false
             )
             
             return try ModelContainer(for: schema, configurations: [modelConfiguration])

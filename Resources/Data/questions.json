@@ -199,6 +199,281 @@
       "difficulty": "medium",
       "explanation": "Elijah was taken up to heaven in a whirlwind with chariots of fire.",
       "bibleReference": "2 Kings 2:11"
+    },
+    {
+      "id": "96d2dbc8-14c6-4c00-9151-c2c28c2cc111",
+      "text": "Which judge defeated the Midianites with only 300 men?",
+      "answers": ["Samson", "Ehud", "Gideon", "Barak"],
+      "correctIndex": 2,
+      "category": "old_testament",
+      "difficulty": "medium",
+      "explanation": "God reduced Gideon's army to 300 so Israel could not boast of its own strength.",
+      "bibleReference": "Judges 7:7"
+    },
+    {
+      "id": "a3c15562-7e1d-47b7-984b-4c6d0be74f97",
+      "text": "Which Old-Testament book tells of a talking donkey?",
+      "answers": ["Genesis", "Exodus", "Numbers", "Deuteronomy"],
+      "correctIndex": 2,
+      "category": "old_testament",
+      "difficulty": "easy",
+      "explanation": "Balaam’s donkey speaks after seeing the angel of the Lord.",
+      "bibleReference": "Numbers 22:28-30"
+    },
+    {
+      "id": "bb5c6e91-4b38-47ef-b2b6-666011357e8a",
+      "text": "Who succeeded Moses as leader of Israel?",
+      "answers": ["Aaron", "Joshua", "Caleb", "Gershom"],
+      "correctIndex": 1,
+      "category": "old_testament",
+      "difficulty": "easy",
+      "explanation": "Joshua is commissioned to lead the people into Canaan.",
+      "bibleReference": "Deuteronomy 31:7-8"
+    },
+    {
+      "id": "81fa787d-68ef-4874-a62e-5d7c71b9fb2d",
+      "text": "Which letter of Paul is addressed to a runaway slave’s master?",
+      "answers": ["Philemon", "Titus", "Colossians", "2 Thessalonians"],
+      "correctIndex": 0,
+      "category": "new_testament",
+      "difficulty": "medium",
+      "explanation": "Paul pleads with Philemon to receive Onesimus as a brother.",
+      "bibleReference": "Philemon 1:10-16"
+    },
+    {
+      "id": "74ec0a82-67f7-4c70-9e9e-9a4182f5b6c4",
+      "text": "In Acts, who is known as the 'son of encouragement'?",
+      "answers": ["Barnabas", "Silas", "Timothy", "Apollos"],
+      "correctIndex": 0,
+      "category": "new_testament",
+      "difficulty": "easy",
+      "explanation": "Joseph, a Levite, is nicknamed Barnabas, meaning son of encouragement.",
+      "bibleReference": "Acts 4:36"
+    },
+    {
+      "id": "33e850cd-dac4-4eb7-8d8c-53f4e9b4c0c2",
+      "text": "Who fell asleep during Paul’s late-night preaching and fell from a window?",
+      "answers": ["Trophimus", "Eutychus", "Sosthenes", "Demetrius"],
+      "correctIndex": 1,
+      "category": "new_testament",
+      "difficulty": "medium",
+      "explanation": "Eutychus survived after Paul embraced him.",
+      "bibleReference": "Acts 20:9-10"
+    },
+    {
+      "id": "6c7d4a34-8513-4e76-a5df-43b50fc72134",
+      "text": "Which epistle emphasizes 'faith without works is dead'?",
+      "answers": ["James", "Hebrews", "1 Peter", "Galatians"],
+      "correctIndex": 0,
+      "category": "new_testament",
+      "difficulty": "easy",
+      "explanation": "James teaches that genuine faith produces action.",
+      "bibleReference": "James 2:17"
+    },
+    {
+      "id": "16f9e7ba-4cd8-46a5-8fdd-b0a6f4d5e659",
+      "text": "Which New-Testament city’s believers were first called 'Christians'?",
+      "answers": ["Jerusalem", "Antioch", "Corinth", "Rome"],
+      "correctIndex": 1,
+      "category": "new_testament",
+      "difficulty": "easy",
+      "explanation": "Disciples were first called Christians in Antioch of Syria.",
+      "bibleReference": "Acts 11:26"
+    },
+    {
+      "id": "c5504474-823f-4512-8039-5a0d9d9d36bd",
+      "text": "Which New-Testament book quotes Habakkuk 2:4, 'the righteous shall live by faith'?",
+      "answers": ["Romans", "Ephesians", "Hebrews", "Jude"],
+      "correctIndex": 0,
+      "category": "new_testament",
+      "difficulty": "medium",
+      "explanation": "Paul builds his gospel argument on that quotation.",
+      "bibleReference": "Romans 1:17"
+    },
+    {
+      "id": "d32aa6f0-5ed3-4b63-adb9-1770553c581a",
+      "text": "Who carried Jesus’ cross part of the way to Golgotha?",
+      "answers": ["Joseph of Arimathea", "Simon of Cyrene", "Nicodemus", "John"],
+      "correctIndex": 1,
+      "category": "gospels",
+      "difficulty": "easy",
+      "explanation": "The Synoptic Gospels record Simon being compelled to carry the cross.",
+      "bibleReference": "Luke 23:26"
+    },
+    {
+      "id": "52be01e6-7c7d-4e15-9e2c-db099adade30",
+      "text": "Which Gospel records Jesus turning water into wine?",
+      "answers": ["Matthew", "Mark", "Luke", "John"],
+      "correctIndex": 3,
+      "category": "gospels",
+      "difficulty": "easy",
+      "explanation": "The first sign in John occurs at Cana.",
+      "bibleReference": "John 2:1-11"
+    },
+    {
+      "id": "7f9b361f-2c0d-46a7-8ad1-5f0c380a7d35",
+      "text": "Who is the tax collector who climbs a sycamore tree to see Jesus?",
+      "answers": ["Matthew", "Zacchaeus", "Nicodemus", "Bartimaeus"],
+      "correctIndex": 1,
+      "category": "gospels",
+      "difficulty": "easy",
+      "explanation": "Zacchaeus is mentioned only in Luke’s Gospel.",
+      "bibleReference": "Luke 19:1-4"
+    },
+    {
+      "id": "8a74b266-3992-42d4-9faf-fd4d5ec3e24e",
+      "text": "Which Gospel uniquely includes the Parable of the Prodigal Son?",
+      "answers": ["Matthew", "Mark", "Luke", "John"],
+      "correctIndex": 2,
+      "category": "gospels",
+      "difficulty": "medium",
+      "explanation": "Luke contains several parables found nowhere else.",
+      "bibleReference": "Luke 15:11-32"
+    },
+    {
+      "id": "4b7e0124-9e82-4c6b-bd2e-184018d4ae5d",
+      "text": "In Matthew, what does Jesus say are the two greatest commandments?",
+      "answers": [
+        "Love God; Love your neighbour",
+        "Keep the Sabbath; Do not steal",
+        "Honor parents; Do not murder",
+        "Give alms; Fast"
+      ],
+      "correctIndex": 0,
+      "category": "gospels",
+      "difficulty": "easy",
+      "explanation": "Jesus sums up the Law and Prophets with love of God and neighbour.",
+      "bibleReference": "Matthew 22:37-40"
+    },
+    {
+      "id": "6f3c8d57-e737-4bd1-9346-718fac6b8873",
+      "text": "Which miracle of Jesus is recorded in all four Gospels?",
+      "answers": [
+        "Walking on water",
+        "Feeding the 5,000",
+        "Healing blind Bartimaeus",
+        "Raising Lazarus"
+      ],
+      "correctIndex": 1,
+      "category": "gospels",
+      "difficulty": "medium",
+      "explanation": "The feeding of the multitude appears in every Gospel narrative.",
+      "bibleReference": "Matthew 14, Mark 6, Luke 9, John 6"
+    },
+    {
+      "id": "be1644c3-5342-4699-8a40-4492b4b9e6ad",
+      "text": "Who asked Jesus, 'What is truth?'",
+      "answers": ["Caiaphas", "Pilate", "Herod", "Annas"],
+      "correctIndex": 1,
+      "category": "gospels",
+      "difficulty": "medium",
+      "explanation": "Pilate questions Jesus during his trial in John.",
+      "bibleReference": "John 18:38"
+    },
+    {
+      "id": "6827b603-33e7-4a02-9f29-f5fa4b0942f5",
+      "text": "Which woman became queen of Persia and saved her people?",
+      "answers": ["Ruth", "Deborah", "Esther", "Miriam"],
+      "correctIndex": 2,
+      "category": "characters",
+      "difficulty": "easy",
+      "explanation": "Esther risked her life to intercede for the Jews.",
+      "bibleReference": "Esther 4:16"
+    },
+    {
+      "id": "49435390-39ab-4d3f-9b4a-f935ebaf2fad",
+      "text": "Who interpreted King Nebuchadnezzar’s dream of a great statue?",
+      "answers": ["Joseph", "Daniel", "Ezekiel", "Jeremiah"],
+      "correctIndex": 1,
+      "category": "characters",
+      "difficulty": "medium",
+      "explanation": "Daniel revealed the statue represented successive kingdoms.",
+      "bibleReference": "Daniel 2:31-45"
+    },
+    {
+      "id": "e74dacf9-d730-456f-8412-b9e3a298a262",
+      "text": "Which disciple doubted Jesus’ resurrection until he saw the wounds?",
+      "answers": ["Thomas", "Philip", "Andrew", "James"],
+      "correctIndex": 0,
+      "category": "characters",
+      "difficulty": "easy",
+      "explanation": "‘Doubting’ Thomas exclaimed, “My Lord and my God!”",
+      "bibleReference": "John 20:24-28"
+    },
+    {
+      "id": "32743366-1e0b-4ce1-853c-5166bca5bf98",
+      "text": "Who hid two Israelite spies on her roof in Jericho?",
+      "answers": ["Rahab", "Leah", "Bathsheba", "Delilah"],
+      "correctIndex": 0,
+      "category": "characters",
+      "difficulty": "medium",
+      "explanation": "Rahab’s faith saved her family when Jericho fell.",
+      "bibleReference": "Joshua 2:1-6"
+    },
+    {
+      "id": "6ef20481-2945-4736-bce0-1e24bd4b0b6d",
+      "text": "Who healed Naaman the Syrian of leprosy by telling him to wash in the Jordan?",
+      "answers": ["Elisha", "Elijah", "Isaiah", "Samuel"],
+      "correctIndex": 0,
+      "category": "characters",
+      "difficulty": "medium",
+      "explanation": "Elisha instructed Naaman to dip seven times.",
+      "bibleReference": "2 Kings 5:10-14"
+    },
+    {
+      "id": "3d1b24ae-df3b-4f35-9922-3b0668917462",
+      "text": "Which psalm opens with 'Blessed is the man who does not walk in the counsel of the wicked'?",
+      "answers": ["Psalm 1", "Psalm 23", "Psalm 51", "Psalm 121"],
+      "correctIndex": 0,
+      "category": "wisdom_prophecy",
+      "difficulty": "easy",
+      "explanation": "Psalm 1 contrasts the righteous and the wicked.",
+      "bibleReference": "Psalm 1:1"
+    },
+    {
+      "id": "c8626696-21ab-4b90-9d72-9f0d70e640b3",
+      "text": "According to Proverbs, what is 'a gentle answer' said to do?",
+      "answers": [
+        "Bring wisdom",
+        "Turn away wrath",
+        "Heal diseases",
+        "Secure friends"
+      ],
+      "correctIndex": 1,
+      "category": "wisdom_prophecy",
+      "difficulty": "easy",
+      "explanation": "Proverbs 15:1 contrasts gentle and harsh words.",
+      "bibleReference": "Proverbs 15:1"
+    },
+    {
+      "id": "b49c4c8a-4b46-476c-9d4d-f2168c04c6d2",
+      "text": "Which prophet saw a vision of a valley of dry bones?",
+      "answers": ["Jeremiah", "Ezekiel", "Isaiah", "Malachi"],
+      "correctIndex": 1,
+      "category": "wisdom_prophecy",
+      "difficulty": "medium",
+      "explanation": "Ezekiel’s vision symbolized Israel's restoration.",
+      "bibleReference": "Ezekiel 37:1-14"
+    },
+    {
+      "id": "90d6720e-b50e-4c7b-832b-dc50b4ae676e",
+      "text": "Which Old-Testament book concludes, 'Let us hear the conclusion of the whole matter: Fear God and keep His commandments'?",
+      "answers": ["Job", "Ecclesiastes", "Song of Solomon", "Proverbs"],
+      "correctIndex": 1,
+      "category": "wisdom_prophecy",
+      "difficulty": "medium",
+      "explanation": "Ecclesiastes ends by summarizing the duty of humanity.",
+      "bibleReference": "Ecclesiastes 12:13"
+    },
+    {
+      "id": "2b3bfd2a-1144-4e1d-8f4b-9d81edaa11fb",
+      "text": "Which wisdom book personifies Wisdom as calling out in the streets?",
+      "answers": ["Job", "Psalms", "Proverbs", "Ecclesiastes"],
+      "correctIndex": 2,
+      "category": "wisdom_prophecy",
+      "difficulty": "medium",
+      "explanation": "Proverbs 1 depicts Wisdom shouting in public places.",
+      "bibleReference": "Proverbs 1:20-23"
     }
   ]
 }

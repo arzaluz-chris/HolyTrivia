@@ -62,7 +62,7 @@ struct TabBarItem: View {
             .animation(theme.animation.quick, value: isPressed)
         }
         .buttonStyle(PlainButtonStyle())
-        .onLongPressGesture(minimumDuration: 0, maximumDistance: .infinity) { _ in
+        .onLongPressGesture(minimumDuration: 0, maximumDistance: .infinity) {
             isPressed = true
         } onPressingChanged: { pressing in
             isPressed = pressing

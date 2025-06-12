@@ -105,6 +105,14 @@ struct AppTheme {
         static let spring = SwiftUI.Animation.spring(response: 0.3, dampingFraction: 0.7)
         static let bounce = SwiftUI.Animation.spring(response: 0.4, dampingFraction: 0.6)
     }
+    
+    // MARK: - Theme Accessors
+    static let colors = Colors.self
+    static let typography = Typography.self
+    static let spacing = Spacing.self
+    static let cornerRadius = CornerRadius.self
+    static let shadow = Shadow.self
+    static let animation = Animation.self
 }
 
 // MARK: - Shadow Style

@@ -33,19 +33,20 @@ final class SwiftDataContainer {
     
     // MARK: - Migration Support
     func performMigrationIfNeeded() async {
-        // Future implementation for data migration between versions
-        let context = modelContainer.mainContext
-        
-        // Check if this is first launch
-        let isFirstLaunch = UserDefaults.standard.bool(forKey: "hasPerformedInitialSetup") == false
-        
-        if isFirstLaunch {
-            await performInitialSetup(context: context)
-            UserDefaults.standard.set(true, forKey: "hasPerformedInitialSetup")
+        await MainActor.run {
+            let context = modelContainer.mainContext
+
+            // Check if this is first launch
+            let isFirstLaunch = UserDefaults.standard.bool(forKey: "hasPerformedInitialSetup") == false
+
+            if isFirstLaunch {
+                performInitialSetup(context: context)
+                UserDefaults.standard.set(true, forKey: "hasPerformedInitialSetup")
+            }
         }
     }
     
-    private func performInitialSetup(context: ModelContext) async {
+    @MainActor private func performInitialSetup(context: ModelContext) {
         // Create default player if needed
         do {
             let descriptor = FetchDescriptor<PlayerSD>()
@@ -64,21 +65,17 @@ final class SwiftDataContainer {
     // MARK: - Debug Helpers
     #if DEBUG
     func clearAllData() async {
-        let context = modelContainer.mainContext
-        
-        do {
-            // Delete all questions
-            try context.delete(model: QuestionSD.self)
+        await MainActor.run {
+            let context = modelContainer.mainContext
             
-            // Delete all players
-            try context.delete(model: PlayerSD.self)
-            
-            // Delete all sessions
-            try context.delete(model: SessionResultSD.self)
-            
-            try context.save()
-        } catch {
-            print("Failed to clear data: \(error)")
+            do {
+                try context.delete(model: QuestionSD.self)
+                try context.delete(model: PlayerSD.self)
+                try context.delete(model: SessionResultSD.self)
+                try context.save()
+            } catch {
+                print("Failed to clear data: \(error)")
+            }
         }
     }
     #endif

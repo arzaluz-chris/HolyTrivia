@@ -24,7 +24,7 @@ final class QuizEngine: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     
     // MARK: - Constants
-    private let questionsPerSession = 10
+    private let questionsPerSession = 5
     private let secondsPerQuestion: TimeInterval = 30
     
     // MARK: - Initialization

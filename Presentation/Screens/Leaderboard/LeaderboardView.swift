@@ -84,7 +84,6 @@ struct LeaderboardView: View {
     }
 }
 
-// MARK: - Leaderboard Row
 struct LeaderboardRow: View {
     let player: Player
     let rank: Int

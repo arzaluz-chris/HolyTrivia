@@ -69,7 +69,7 @@ struct AnswerButton: View {
         .animation(theme.animation.quick, value: isPressed)
         .animation(theme.animation.standard, value: isCorrect)
         .animation(theme.animation.standard, value: isWrong)
-        .onLongPressGesture(minimumDuration: 0, maximumDistance: .infinity) { _ in
+        .onLongPressGesture(minimumDuration: 0, maximumDistance: .infinity) {
             isPressed = true
         } onPressingChanged: { pressing in
             isPressed = pressing
